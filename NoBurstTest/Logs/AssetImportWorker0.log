@@ -1,0 +1,436 @@
+Unity Editor version:    6000.0.59f2 (ef281c76c3c1)
+Branch:                  6000.0/respin/6000.0.59f1-063c55f2fd0f
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.7.1 (Build 24G231)
+Darwin version:          24.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        65536 MB
+Using pre-set license
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63283
+-job-worker-count
+4
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest
+/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8558453056]  Target information:
+
+Player connection [8558453056]  * "[IP] 10.172.229.227 [Port] 0 [Flags] 2 [Guid] 920739359 [EditorId] 920739359 [Version] 1048832 [Id] OSXEditor(0,Ds-Laptop.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8558453056] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8558453056] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 4
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.59f2 (ef281c76c3c1)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M1 Max (high power)
+Metal devices available: 1
+0: Apple M1 Max (high power)
+Using device Apple M1 Max (high power)
+Initializing Metal device caps: Apple M1 Max
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56047
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000567 seconds.
+- Loaded All Assemblies, in  0.241 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.257 seconds
+Domain Reload Profiling: 497ms
+	BeginReloadAssembly (54ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (54ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (104ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (257ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (227ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.404 seconds
+Refreshing native plugins compatible for Editor in 3.38 ms, found 4 plugins.
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.56 ms, found 4 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.431 seconds
+Domain Reload Profiling: 834ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (147ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (105ms)
+			BuildScriptInfoCaches (19ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (431ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (355ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3992 unused Assets / (1.2 MB). Loaded Objects now: 4411.
+Memory consumption went from 77.5 MB to 76.3 MB.
+Total: 4.595750 ms (FindLiveObjects: 0.533959 ms CreateObjectMapping: 0.097333 ms MarkObjects: 3.277875 ms  DeleteObjects: 0.685917 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 28379.841315 seconds.
+  path: Assets/Collaborators
+  artifactKey: Guid(b08a8d5c0c04243afb71b2f1abf0ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collaborators using Guid(b08a8d5c0c04243afb71b2f1abf0ee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c42b9dac032325560e8529e99168a5b5') in 0.002170208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.646957 seconds.
+  path: Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset
+  artifactKey: Guid(822d3ab22772643eab306dbddc2485c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset using Guid(822d3ab22772643eab306dbddc2485c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f049a3440ea706d66af445d0d53e3fa8') in 0.103356625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Collaborators
+  artifactKey: Guid(b08a8d5c0c04243afb71b2f1abf0ee4f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators using Guid(b08a8d5c0c04243afb71b2f1abf0ee4f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '62b461bd6966de10becb75e2914c23d3') in 0.001853708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/EventManager.cs
+  artifactKey: Guid(1fc38201a5edb994c874a4a61e96053b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/FMOD/src/Editor/EventManager.cs using Guid(1fc38201a5edb994c874a4a61e96053b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '330b9bc7e64991bd447027e63a3836b4') in 0.005510667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.286287 seconds.
+  path: Assets/Collaborators/New Folder
+  artifactKey: Guid(549116dccc4df42f184988a16e2701cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators/New Folder using Guid(549116dccc4df42f184988a16e2701cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '581e10d3de22e70679fd47f8aa4278d3') in 0.005578833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.551565 seconds.
+  path: Assets/Collaborators/New Folder
+  artifactKey: Guid(549116dccc4df42f184988a16e2701cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collaborators/New Folder using Guid(549116dccc4df42f184988a16e2701cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab5b99e6f57c892710672fb38d4f4ccf') in 0.000361708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.484117 seconds.
+  path: Assets/Collaborators/DamonLee
+  artifactKey: Guid(549116dccc4df42f184988a16e2701cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collaborators/DamonLee using Guid(549116dccc4df42f184988a16e2701cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e513c5e6213e1acbbf9526200b0f0092') in 0.000293208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.973429 seconds.
+  path: Assets/Collaborators/DamonLee
+  artifactKey: Guid(549116dccc4df42f184988a16e2701cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators/DamonLee using Guid(549116dccc4df42f184988a16e2701cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3c2a0cbf017dcf6bce4475dcf1abb46') in 0.002616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.916559 seconds.
+  path: Assets/Collaborators/DamonLee/New Folder
+  artifactKey: Guid(8976476451c2b427294548ca5e9bea80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators/DamonLee/New Folder using Guid(8976476451c2b427294548ca5e9bea80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3cf36b6af29f021943a64a164ddbbf06') in 0.00432075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.075387 seconds.
+  path: Assets/Collaborators/DamonLee/New Folder
+  artifactKey: Guid(8976476451c2b427294548ca5e9bea80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collaborators/DamonLee/New Folder using Guid(8976476451c2b427294548ca5e9bea80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdf5af500e603b3b1e7599a58850ba71') in 0.000377709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.054030 seconds.
+  path: Assets/Collaborators/DamonLee/New Folder/New Folder
+  artifactKey: Guid(75c4273f66b4a41009a13b2f0fc573b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Collaborators/DamonLee/New Folder/New Folder using Guid(75c4273f66b4a41009a13b2f0fc573b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf74ea8c962700e80fdcb2e9d1794e97') in 0.000457291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.971032 seconds.
+  path: Assets/Collaborators/DamonLee/New Folder/New Folder
+  artifactKey: Guid(75c4273f66b4a41009a13b2f0fc573b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators/DamonLee/New Folder/New Folder using Guid(75c4273f66b4a41009a13b2f0fc573b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'acb325be39b02be07eeb9aafb26cfeca') in 0.002788583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.951850 seconds.
+  path: Assets/Collaborators/DamonLee/Scenes/New Folder
+  artifactKey: Guid(75c4273f66b4a41009a13b2f0fc573b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators/DamonLee/Scenes/New Folder using Guid(75c4273f66b4a41009a13b2f0fc573b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b9d984140b8b9b1e1ae0f922fcf0843') in 0.004005542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.991407 seconds.
+  path: Assets/Collaborators/DamonLee/Scenes 1
+  artifactKey: Guid(fde324548746542589c828fe8504e893) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators/DamonLee/Scenes 1 using Guid(fde324548746542589c828fe8504e893) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e104f7df4aebe573a833e33c2f16d91c') in 0.003896125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.829838 seconds.
+  path: Assets/Collaborators/DamonLee/Audio
+  artifactKey: Guid(fde324548746542589c828fe8504e893) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators/DamonLee/Audio using Guid(fde324548746542589c828fe8504e893) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c356b86b769f7535c28452bdf5aeffec') in 0.0030805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.553837 seconds.
+  path: Assets/Collaborators/DamonLee/Scenes 1
+  artifactKey: Guid(714d542a804254b41808dbc49f22a7a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators/DamonLee/Scenes 1 using Guid(714d542a804254b41808dbc49f22a7a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b47c2e2beb3770232744c88185e85c89') in 0.002765208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.702805 seconds.
+  path: Assets/Collaborators/DamonLee/Prefabs
+  artifactKey: Guid(714d542a804254b41808dbc49f22a7a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators/DamonLee/Prefabs using Guid(714d542a804254b41808dbc49f22a7a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '237acdcd236820936a26f3a2f39bbfea') in 0.004562917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.756507 seconds.
+  path: Assets/Collaborators/DamonLee/Scenes 1
+  artifactKey: Guid(377852d895d794ac19ff44247a7ff20c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators/DamonLee/Scenes 1 using Guid(377852d895d794ac19ff44247a7ff20c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28a77571cc348805ba3b9f8aec5a3b0e') in 0.00481875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.823192 seconds.
+  path: Assets/Collaborators/DamonLee/Materials
+  artifactKey: Guid(377852d895d794ac19ff44247a7ff20c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators/DamonLee/Materials using Guid(377852d895d794ac19ff44247a7ff20c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e571dff89367e6e454ca0926f89ec05') in 0.002520917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.098617 seconds.
+  path: Assets/Collaborators/DamonLee/Scenes 1
+  artifactKey: Guid(07c76a45c3106430fa8cf09214e75675) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators/DamonLee/Scenes 1 using Guid(07c76a45c3106430fa8cf09214e75675) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd92631c3e8aa81b26ce2ca3c7ac5df88') in 0.004180625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.156683 seconds.
+  path: Assets/Collaborators/DamonLee/Scripts
+  artifactKey: Guid(07c76a45c3106430fa8cf09214e75675) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators/DamonLee/Scripts using Guid(07c76a45c3106430fa8cf09214e75675) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0524d825e1893a3ee7fe8d0b76531812') in 0.002378334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.593858 seconds.
+  path: Assets/Shared
+  artifactKey: Guid(47219d115af984d09be689721ac3faef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shared using Guid(47219d115af984d09be689721ac3faef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cce3b44b91218816b477eb17b7f7af4f') in 0.000360209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.970239 seconds.
+  path: Assets/Shared
+  artifactKey: Guid(47219d115af984d09be689721ac3faef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Shared using Guid(47219d115af984d09be689721ac3faef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd4bcef806253a12d990e70cdd04bd5f') in 0.003922166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1367.608798 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a7aaf5ac3f4180361f20902e69cd60b') in 0.003519792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5355.932667 seconds.
+  path: Assets/Collaborators/DamonLee 1
+  artifactKey: Guid(bec7ba932d3c64183a6970fc0e32364d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators/DamonLee 1 using Guid(bec7ba932d3c64183a6970fc0e32364d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e87abd1f0ccb00918b827d7d060bba9') in 0.002162167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Collaborators/DamonLee 1/Materials
+  artifactKey: Guid(49955a872773c4ae5bf8dbe9bcb67556) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators/DamonLee 1/Materials using Guid(49955a872773c4ae5bf8dbe9bcb67556) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96edccd3c258d145f76c2f8e14ce15b3') in 0.001672458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Collaborators/DamonLee 1/Scenes
+  artifactKey: Guid(4c820f5c3533c43a9bdeebdeeb20f213) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators/DamonLee 1/Scenes using Guid(4c820f5c3533c43a9bdeebdeeb20f213) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ab09a9845b7018eb077c22684149d9b') in 0.001825083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.016252 seconds.
+  path: Assets/Collaborators/MaxKeune/Materials
+  artifactKey: Guid(49955a872773c4ae5bf8dbe9bcb67556) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators/MaxKeune/Materials using Guid(49955a872773c4ae5bf8dbe9bcb67556) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50f1e24826fee31014c3b521184bc700') in 0.002249417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Collaborators/MaxKeune/Prefabs
+  artifactKey: Guid(662fcee8bb1864f1dad3b3db6195f18b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators/MaxKeune/Prefabs using Guid(662fcee8bb1864f1dad3b3db6195f18b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f250e64bda8fb4c45de0b7dc110fc45a') in 0.001618792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Collaborators/MaxKeune/Scenes
+  artifactKey: Guid(4c820f5c3533c43a9bdeebdeeb20f213) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Collaborators/MaxKeune/Scenes using Guid(4c820f5c3533c43a9bdeebdeeb20f213) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8f556b93fcffbd16a37371d447f3fc3') in 0.001451542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+

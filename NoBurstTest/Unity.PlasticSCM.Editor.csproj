@@ -92,8 +92,8 @@
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Editor/UI/DelayedActionByFramesRunner.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Editor/AssetsUtils/Processor/UnityCloudProjectLinkMonitor.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Editor/Settings/OpenUVCSProjectSettings.cs" />
-    <Compile Include="Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Editor/UI/MeasureMaxWidth.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Editor/_Deprecated/UI/CooldownWindowDelayer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Editor/UI/MeasureMaxWidth.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Editor/UI/EnumPopupSetting.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Editor/Configuration/ClientConfiguration.cs" />
     <Compile Include="Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Editor/Views/Labels/LabelsViewMenu.cs" />

@@ -120,8 +120,8 @@
     <Compile Include="Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Editor/PropertyDrawers/InputActionReferenceSearchProviders.cs" />
     <Compile Include="Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Controls/Processors/CompensateRotationProcessor.cs" />
     <Compile Include="Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Editor/Settings/InputSettingsProvider.cs" />
-    <Compile Include="Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/State/InputState.cs" />
     <Compile Include="Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Events/InputEventBuffer.cs" />
+    <Compile Include="Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/State/InputState.cs" />
     <Compile Include="Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Controls/Vector2Control.cs" />
     <Compile Include="Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Devices/Pointer.cs" />
     <Compile Include="Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Editor/UITKAssetEditor/EnumerableExtensions.cs" />
@@ -203,8 +203,8 @@
     <Compile Include="Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Plugins/UI/InputSystemUIInputModuleEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Plugins/iOS/InputSettingsiOSProvider.cs" />
     <Compile Include="Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Actions/InputAction.cs" />
-    <Compile Include="Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Plugins/DualShock/IDualShockHaptics.cs" />
     <Compile Include="Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Actions/InputActionState.cs" />
+    <Compile Include="Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Plugins/DualShock/IDualShockHaptics.cs" />
     <Compile Include="Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Devices/Precompiled/FastTouchscreen.cs" />
     <Compile Include="Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Editor/AssetImporter/InputActionAssetEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Actions/Composites/TwoModifiersComposite.cs" />
@@ -960,15 +960,15 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@ab839cc7d2ad/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@ab839cc7d2ad/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="log4netPlastic">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@ab839cc7d2ad/Lib/Editor/log4netPlastic.dll</HintPath>
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Lib/Editor/log4netPlastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
@@ -976,7 +976,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="unityplastic">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@ab839cc7d2ad/Lib/Editor/unityplastic.dll</HintPath>
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Lib/Editor/unityplastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">

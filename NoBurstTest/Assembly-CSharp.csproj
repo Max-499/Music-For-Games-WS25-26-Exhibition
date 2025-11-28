@@ -49,7 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
-    <Compile Include="Assets/Collaborators/DamonLee/Scripts/ApiEndpointConnectionScript.cs" />
+    <Compile Include="Assets/Collaborators/TobiasKoelker/Scripts/ApiEndpointConnectionScript.cs" />
     <Compile Include="Assets/GameController/CameraStickControl.cs" />
   </ItemGroup>
   <ItemGroup>

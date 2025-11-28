@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Collaborators/DamonLee/Scenes/TobiSampleScene.unity
+- path: Assets/Collaborators/TobiasKoelker/Scenes/TobiSampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

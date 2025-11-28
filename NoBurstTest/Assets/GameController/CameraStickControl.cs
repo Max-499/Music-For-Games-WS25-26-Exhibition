@@ -17,6 +17,7 @@ public class CameraStickControl : MonoBehaviour
 
     void OnEnable()
     {
+		// test
         if (inputActions == null)
         {
             Debug.LogError("InputActionAsset not assigned.");

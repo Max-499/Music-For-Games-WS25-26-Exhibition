@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8191046449839235682
+--- !u!114 &-7764769131743494293
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,23 +10,77 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Test
+  m_Name: event:/MaxKeuneEvents/Mk_Voice5
   m_EditorClassIdentifier: 
-  Path: event:/Test
+  Path: event:/MaxKeuneEvents/Mk_Voice5
   Guid:
-    Data1: 1608307788
-    Data2: 1154465924
-    Data3: 542931591
-    Data4: 704882112
+    Data1: 141110978
+    Data2: 1244705666
+    Data3: 2097960109
+    Data4: -2005616367
   Banks:
-  - {fileID: 8189616215666715656}
+  - {fileID: 6329921998785302597}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-6841621953487514225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MaxKeuneEvents/Mk_EPiano
+  m_EditorClassIdentifier: 
+  Path: event:/MaxKeuneEvents/Mk_EPiano
+  Guid:
+    Data1: -965282608
+    Data2: 1171544457
+    Data3: 368636571
+    Data4: -1041131560
+  Banks:
+  - {fileID: 6329921998785302597}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 168336
+--- !u!114 &-6552110508920184899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MaxKeuneEvents/Mk_MainL
+  m_EditorClassIdentifier: 
+  Path: event:/MaxKeuneEvents/Mk_MainL
+  Guid:
+    Data1: -1623686658
+    Data2: 1314842726
+    Data3: -1392525437
+    Data4: -977097125
+  Banks:
+  - {fileID: 6329921998785302597}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 168336
 --- !u!114 &-4429814658157017737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,11 +96,171 @@ MonoBehaviour:
   Path: FMOD_Music_For_Games2Test/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638960839120000000
+  lastModified: 639033468041881528
   FileSizes:
   - Name: Desktop
-    Value: 766
+    Value: 1370
   Exists: 1
+--- !u!114 &-3532728481055762664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MaxKeuneEvents/Mk_Voice7
+  m_EditorClassIdentifier: 
+  Path: event:/MaxKeuneEvents/Mk_Voice7
+  Guid:
+    Data1: 1492634773
+    Data2: 1201855945
+    Data3: 242061204
+    Data4: -1715196947
+  Banks:
+  - {fileID: 6329921998785302597}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 71448
+--- !u!114 &-2764058386777094290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MaxKeuneEvents/Mk_BassSection
+  m_EditorClassIdentifier: 
+  Path: event:/MaxKeuneEvents/Mk_BassSection
+  Guid:
+    Data1: 68394145
+    Data2: 1092560177
+    Data3: -811412827
+    Data4: 1807203446
+  Banks:
+  - {fileID: 6329921998785302597}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 168000
+--- !u!114 &-2086993663985574332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MaxKeuneEvents/Mk_Voice8
+  m_EditorClassIdentifier: 
+  Path: event:/MaxKeuneEvents/Mk_Voice8
+  Guid:
+    Data1: -921290322
+    Data2: 1103373113
+    Data3: 1842752650
+    Data4: 717290934
+  Banks:
+  - {fileID: 6329921998785302597}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1799781654953240913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MaxKeuneEvents/Mk_Voice1
+  m_EditorClassIdentifier: 
+  Path: event:/MaxKeuneEvents/Mk_Voice1
+  Guid:
+    Data1: -1602799270
+    Data2: 1178422682
+    Data3: 1015089800
+    Data4: 1518238786
+  Banks:
+  - {fileID: 6329921998785302597}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1241658948504083587}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 48766
+--- !u!114 &-1241658948504083587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Mk_Voice1/Humanity1
+  m_EditorClassIdentifier: 
+  Name: Humanity1
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1061457427
+    data2: 3682616707
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-1123040125509685687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MaxKeuneEvents/Mk_Voice3
+  m_EditorClassIdentifier: 
+  Path: event:/MaxKeuneEvents/Mk_Voice3
+  Guid:
+    Data1: 1839026731
+    Data2: 1081877479
+    Data3: 1781186473
+    Data4: 608869608
+  Banks:
+  - {fileID: 6329921998785302597}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,18 +276,240 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -4429814658157017737}
   - {fileID: 8189616215666715656}
+  - {fileID: 6329921998785302597}
   EditorEvents:
-  - {fileID: -8191046449839235682}
+  - {fileID: 3908403280526615352}
+  - {fileID: 6269032392359718138}
+  - {fileID: -1123040125509685687}
+  - {fileID: -1799781654953240913}
+  - {fileID: 3289146106540592349}
+  - {fileID: 2391156855176073235}
+  - {fileID: -3532728481055762664}
+  - {fileID: -2764058386777094290}
+  - {fileID: 5088699533247158561}
+  - {fileID: -2086993663985574332}
+  - {fileID: -7764769131743494293}
+  - {fileID: -6841621953487514225}
+  - {fileID: 1638673005979556889}
+  - {fileID: -6552110508920184899}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8189616215666715656}
   StringsBanks:
   - {fileID: -4429814658157017737}
   cacheVersion: 131856
-  cacheTime: 638960839120000000
+  cacheTime: 639033468071568331
   SerializableEventsDict:
-  - key: event:/Test
+  - key: event:/MaxKeuneEvents/Mk_MainR
     index: 0
+  - key: event:/MaxKeuneEvents/Mk_Voice6
+    index: 1
+  - key: event:/MaxKeuneEvents/Mk_Voice3
+    index: 2
+  - key: event:/MaxKeuneEvents/Mk_Voice1
+    index: 3
+  - key: event:/MaxKeuneEvents/Mk_ToyPiano
+    index: 4
+  - key: event:/MaxKeuneEvents/Mk_Flutish
+    index: 5
+  - key: event:/MaxKeuneEvents/Mk_Voice7
+    index: 6
+  - key: event:/MaxKeuneEvents/Mk_BassSection
+    index: 7
+  - key: event:/MaxKeuneEvents/Mk_Voice2
+    index: 8
+  - key: event:/MaxKeuneEvents/Mk_Voice8
+    index: 9
+  - key: event:/MaxKeuneEvents/Mk_Voice5
+    index: 10
+  - key: event:/MaxKeuneEvents/Mk_EPiano
+    index: 11
+  - key: event:/MaxKeuneEvents/Mk_Voice4
+    index: 12
+  - key: event:/MaxKeuneEvents/Mk_MainL
+    index: 13
+--- !u!114 &1638673005979556889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MaxKeuneEvents/Mk_Voice4
+  m_EditorClassIdentifier: 
+  Path: event:/MaxKeuneEvents/Mk_Voice4
+  Guid:
+    Data1: 2139950824
+    Data2: 1208408347
+    Data3: 1120019330
+    Data4: 673540796
+  Banks:
+  - {fileID: 6329921998785302597}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20558
+--- !u!114 &2391156855176073235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MaxKeuneEvents/Mk_Flutish
+  m_EditorClassIdentifier: 
+  Path: event:/MaxKeuneEvents/Mk_Flutish
+  Guid:
+    Data1: 469925748
+    Data2: 1114717058
+    Data3: 1404545948
+    Data4: 1864806000
+  Banks:
+  - {fileID: 6329921998785302597}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 168336
+--- !u!114 &3289146106540592349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MaxKeuneEvents/Mk_ToyPiano
+  m_EditorClassIdentifier: 
+  Path: event:/MaxKeuneEvents/Mk_ToyPiano
+  Guid:
+    Data1: -135823782
+    Data2: 1223071221
+    Data3: -942983004
+    Data4: -679413890
+  Banks:
+  - {fileID: 6329921998785302597}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 168336
+--- !u!114 &3908403280526615352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MaxKeuneEvents/Mk_MainR
+  m_EditorClassIdentifier: 
+  Path: event:/MaxKeuneEvents/Mk_MainR
+  Guid:
+    Data1: -251173615
+    Data2: 1228900673
+    Data3: 1801203877
+    Data4: 1573583667
+  Banks:
+  - {fileID: 6329921998785302597}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 168336
+--- !u!114 &5088699533247158561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MaxKeuneEvents/Mk_Voice2
+  m_EditorClassIdentifier: 
+  Path: event:/MaxKeuneEvents/Mk_Voice2
+  Guid:
+    Data1: 47658153
+    Data2: 1109673651
+    Data3: -422393929
+    Data4: -858405545
+  Banks:
+  - {fileID: 6329921998785302597}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 48003
+--- !u!114 &6269032392359718138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MaxKeuneEvents/Mk_Voice6
+  m_EditorClassIdentifier: 
+  Path: event:/MaxKeuneEvents/Mk_Voice6
+  Guid:
+    Data1: -689923310
+    Data2: 1149770206
+    Data3: 719984307
+    Data4: -1938101753
+  Banks:
+  - {fileID: 6329921998785302597}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 66781
+--- !u!114 &6329921998785302597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Max Keune.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD_Music_For_Games2Test/Build/Desktop/Max Keune.bank
+  Name: Max Keune
+  StudioPath: bank:/Max Keune
+  lastModified: 639033468071568331
+  FileSizes:
+  - Name: Desktop
+    Value: 13490176
+  Exists: 1
 --- !u!114 &8189616215666715656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,8 +525,8 @@ MonoBehaviour:
   Path: FMOD_Music_For_Games2Test/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638960839120000000
+  lastModified: 639033468041875811
   FileSizes:
   - Name: Desktop
-    Value: 1612
+    Value: 1074
   Exists: 1

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{3e27cce0-0b8a-4096-9c75-22cb11cc01d7}">
+		<property name="assetPath">
+			<value>Text3_S13.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.23999999999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b6892493-abfc-4666-9884-330578b688d7}</destination>
+		</relationship>
+	</object>
+</objects>

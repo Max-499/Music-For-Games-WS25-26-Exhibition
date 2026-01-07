@@ -48,8 +48,13 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.59f2/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Collaborators/MaxKeune/Scripts/FMODGlobalParameterRamp.cs" />
+    <Compile Include="Assets/Collaborators/MaxKeune/Scripts/FmodBETTERParamRamp_emitter.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
+    <Compile Include="Assets/Collaborators/MaxKeune/Scripts/ObjectMover3D.cs" />
+    <Compile Include="Assets/Collaborators/MaxKeune/Scripts/CameraMaxControl.cs" />
     <Compile Include="Assets/GameController/CameraStickControl.cs" />
+    <Compile Include="Assets/Collaborators/MaxKeune/Scripts/FMODMultiPRamp.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

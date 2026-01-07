@@ -259,7 +259,8 @@ MonoBehaviour:
   Plugins: []
   MasterBanks:
   - Master
-  Banks: []
+  Banks:
+  - Max Keune
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

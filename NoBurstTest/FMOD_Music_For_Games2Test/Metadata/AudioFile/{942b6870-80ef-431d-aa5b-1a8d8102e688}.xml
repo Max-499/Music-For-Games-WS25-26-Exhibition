@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{942b6870-80ef-431d-aa5b-1a8d8102e688}">
+		<property name="assetPath">
+			<value>ExhibitMusic 9-Tiran Sines.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>168.33600000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b6892493-abfc-4666-9884-330578b688d7}</destination>
+		</relationship>
+	</object>
+</objects>

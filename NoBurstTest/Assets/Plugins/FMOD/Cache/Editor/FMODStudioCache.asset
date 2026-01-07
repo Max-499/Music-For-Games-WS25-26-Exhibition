@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8191046449839235682
+--- !u!114 &-8429226750259367733
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,43 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Test
+  m_Name: event:/MainDrone
   m_EditorClassIdentifier: 
-  Path: event:/Test
+  Path: event:/MainDrone
   Guid:
-    Data1: 1608307788
-    Data2: 1154465924
-    Data3: 542931591
-    Data4: 704882112
+    Data1: 575999992
+    Data2: 1154616857
+    Data3: -909502309
+    Data4: -197817339
   Banks:
-  - {fileID: 8189616215666715656}
-  IsStream: 0
+  - {fileID: 2007345855126554260}
+  IsStream: 1
   Is3D: 0
-  IsOneShot: 1
-  Parameters: []
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2450965678287840262}
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
---- !u!114 &-4429814658157017737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD_Music_For_Games2Test/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638983750051677751
-  FileSizes:
-  - Name: Desktop
-    Value: 766
-  Exists: 1
+  Length: 117600
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,21 +41,21 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -4429814658157017737}
-  - {fileID: 8189616215666715656}
+  - {fileID: 6374004355180715298}
+  - {fileID: 2007345855126554260}
   EditorEvents:
-  - {fileID: -8191046449839235682}
+  - {fileID: -8429226750259367733}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 8189616215666715656}
+  - {fileID: 2007345855126554260}
   StringsBanks:
-  - {fileID: -4429814658157017737}
+  - {fileID: 6374004355180715298}
   cacheVersion: 131856
-  cacheTime: 638983750051677751
+  cacheTime: 639033509745847458
   SerializableEventsDict:
-  - key: event:/Test
+  - key: event:/MainDrone
     index: 0
---- !u!114 &8189616215666715656
+--- !u!114 &2007345855126554260
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -84,13 +65,57 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Name: bank:/AI_Learning_Audio.bank
   m_EditorClassIdentifier: 
-  Path: FMOD_Music_For_Games2Test/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638983750051676958
+  Path: ../MusicForGames_AI_Learning_fmod/Build/Desktop/AI_Learning_Audio.bank
+  Name: AI_Learning_Audio
+  StudioPath: bank:/AI_Learning_Audio
+  lastModified: 639033509745840513
   FileSizes:
   - Name: Desktop
-    Value: 1612
+    Value: 4421120
+  Exists: 1
+--- !u!114 &2450965678287840262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MainDrone/DroneState
+  m_EditorClassIdentifier: 
+  Name: DroneState
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 127201290
+    data2: 335581157
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6374004355180715298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/AI_Learning_Audio.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../MusicForGames_AI_Learning_fmod/Build/Desktop/AI_Learning_Audio.strings.bank
+  Name: AI_Learning_Audio.strings
+  StudioPath: bank:/AI_Learning_Audio.strings
+  lastModified: 639033509745847458
+  FileSizes:
+  - Name: Desktop
+    Value: 834
   Exists: 1

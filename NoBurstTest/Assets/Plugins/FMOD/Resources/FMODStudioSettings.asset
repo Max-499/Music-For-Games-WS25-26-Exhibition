@@ -234,8 +234,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: FMOD_Music_For_Games2Test/FMOD_Music_For_Games2Test.fspro
-  sourceBankPath: FMOD_Music_For_Games2Test/Build
+  sourceProjectPath: ../MusicForGames_AI_Learning_fmod/MusicForGames_AI_Learning_fmod.fspro
+  sourceBankPath: ../MusicForGames_AI_Learning_fmod/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -258,7 +258,7 @@ MonoBehaviour:
   RealChannelSettings: []
   Plugins: []
   MasterBanks:
-  - Master
+  - AI_Learning_Audio
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264

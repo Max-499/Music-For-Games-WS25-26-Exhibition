@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{278e555d-f14c-4e4e-9553-9e066c3f47c1}">
+		<property name="name">
+			<value>DroneState</value>
+		</property>
+		<relationship name="folder">
+			<destination>{edd2b251-cabd-40bc-b495-2d2de21394e4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f5bad05b-adb8-4958-b0ed-46c722760ca8}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f5bad05b-adb8-4958-b0ed-46c722760ca8}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="automators">
+			<destination>{f97b6786-50e3-41d0-ad8e-d1d535544a44}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{f97b6786-50e3-41d0-ad8e-d1d535544a44}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>

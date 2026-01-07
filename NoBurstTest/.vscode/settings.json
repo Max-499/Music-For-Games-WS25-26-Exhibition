@@ -66,5 +66,8 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj",
     },
-    "dotnet.defaultSolution": "NoBurstTest.sln"
+    "dotnet.defaultSolution": "NoBurstTest.sln",
+    "cSpell.words": [
+        "FMOD"
+    ]
 }

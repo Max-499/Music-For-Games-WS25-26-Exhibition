@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{0edc6b04-f445-417e-80e4-d13d8e1efc81}">
+		<property name="assetPath">
+			<value>MindlessDrone.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>117.59999999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{812c2845-7ed7-41d5-942b-63cd747d0d49}</destination>
+		</relationship>
+	</object>
+</objects>

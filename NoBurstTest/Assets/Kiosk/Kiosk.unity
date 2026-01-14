@@ -213,6 +213,7 @@ MonoBehaviour:
   attractSceneName: Attract
   contentScenes:
   - DamonLeeScene1
+  - DamonLeeScene1
   autoStartFromKiosk: 1
   playMode: 2
   defaultPolicy:

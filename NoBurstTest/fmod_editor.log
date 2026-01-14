@@ -9,7 +9,7 @@
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 0
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0x36213d008 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0x12a60ca08 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -24,43 +24,44 @@
 [LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
 [LOG] AsyncThread::getAsyncThread              : index = 0 / 5
 [LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Affinity: 0x4000000000000003, Priority: 0xFFFF7FFC, Stack Size: 114688, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0x164d9f018, queue head = 0x164d9e878, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x164d9f018
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0x307da3c48, queue head = 0x307d9bd08, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x307da3c48
 [LOG] SystemI::createSoundInternal             :     Create name='FMOD_Music_For_Games2Test/Build/Desktop/DamonLee.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
 [LOG] SystemI::createSoundInternal             :     exinfo->length             = 719104
 [LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 3744
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x164d9f2e8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x307d9bba8
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 339
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 278
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MiniHovercraftByin_DamonLee', format=5, channels=1, frequency=48000, lengthbytes=372704, lengthpcm=2361190, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999847.
 [LOG] Thread::initThread                       :     Init FMOD file thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFC, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x164d9f018
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x307da3c48
 [LOG] SystemI::createSound                     : filename = FMOD_Music_For_Games2Test/Build/Desktop/DamonLee.bank : mode 02010082
 [LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
 [LOG] AsyncThread::getAsyncThread              : index = 0 / 5
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0x164db8b88, queue head = 0x164d9e878, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x164db8b88
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0x307d10ed8, queue head = 0x307d9bd08, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x307d10ed8
 [LOG] SystemI::createSoundInternal             :     Create name='FMOD_Music_For_Games2Test/Build/Desktop/DamonLee.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
 [LOG] SystemI::createSoundInternal             :     exinfo->length             = 719104
 [LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 3744
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x164deff28
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x307d38e28
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 2
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSoundInternal             :     Stream 0/1: name='ByfastElectricTrain_DamonLee', format=5, channels=1, frequency=48000, lengthbytes=343584, lengthpcm=2210168, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.990326.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x164db8b88
-[LOG] SoundI::release                          : ByfastElectricTrain_DamonLee (0x164db8b88)
-[LOG] SoundI::release                          :     ByfastElectricTrain_DamonLee (0x164ddccc8)
-[LOG] SoundI::release                          :     ByfastElectricTrain_DamonLee (0x164de1c18)
-[LOG] SoundI::release                          : MiniHovercraftByin_DamonLee (0x164d9f018)
-[LOG] SoundI::release                          :     MiniHovercraftByin_DamonLee (0x3609bc5a8)
-[LOG] SoundI::release                          :     MiniHovercraftByin_DamonLee (0x3609214e8)
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x307d10ed8
+[LOG] SoundI::release                          : ByfastElectricTrain_DamonLee (0x307d10ed8)
+[LOG] SoundI::release                          :     ByfastElectricTrain_DamonLee (0x307d2e0f8)
+[LOG] SoundI::release                          :     ByfastElectricTrain_DamonLee (0x307db9818)
+[LOG] SoundI::release                          : MiniHovercraftByin_DamonLee (0x307da3c48)
+[LOG] SoundI::release                          :     MiniHovercraftByin_DamonLee (0x307d96108)
+[LOG] SoundI::release                          :     MiniHovercraftByin_DamonLee (0x307d92198)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
@@ -71,4 +72,12 @@
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] SystemI::closeInternal                   : Closed.
-[ERR] ~Global                                  : assertion: 'gSystemInitCount == 0' failed
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] OutputCoreAudio::init                    : Output running 2 channels at 48000Hz sample rate.
+[LOG] OutputCoreAudio::init                    : Maximum hardware read size: 512 samples, Software buffer size: 512 samples, Number of software buffers: 4.
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] OutputCoreAudio::init                    : Output running 2 channels at 44100Hz sample rate.
+[LOG] OutputCoreAudio::init                    : Maximum hardware read size: 512 samples, Software buffer size: 512 samples, Number of software buffers: 4.
+[LOG] SystemI::startDriver                     : Output requires a sample rate of 44100Hz, resampling will occur.
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.

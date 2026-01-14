@@ -1,0 +1,69 @@
+<linker>
+	<assembly fullname="FMODUnity">
+		<type fullname="FMOD.GUID" preserve="nothing" serialized="true"/>
+		<type fullname="FMODUnity.AutomatableSlots" preserve="nothing" serialized="true"/>
+		<type fullname="FMODUnity.BankLoadType" preserve="nothing" serialized="true"/>
+		<type fullname="FMODUnity.EventReference" preserve="nothing" serialized="true"/>
+		<type fullname="FMODUnity.FMODEventMixerBehaviour" preserve="nothing" serialized="true"/>
+		<type fullname="FMODUnity.FMODEventPlayableBehavior" preserve="nothing" serialized="true"/>
+		<type fullname="FMODUnity.ImportType" preserve="nothing" serialized="true"/>
+		<type fullname="FMODUnity.Legacy/Platform" preserve="nothing" serialized="true"/>
+		<type fullname="FMODUnity.MeterChannelOrderingType" preserve="nothing" serialized="true"/>
+		<type fullname="FMODUnity.Platform/PropertyBool" preserve="nothing" serialized="true"/>
+		<type fullname="FMODUnity.Platform/PropertyCallbackHandler" preserve="nothing" serialized="true"/>
+		<type fullname="FMODUnity.Platform/PropertyCodecChannels" preserve="nothing" serialized="true"/>
+		<type fullname="FMODUnity.Platform/PropertyInt" preserve="nothing" serialized="true"/>
+		<type fullname="FMODUnity.Platform/PropertyScreenPosition" preserve="nothing" serialized="true"/>
+		<type fullname="FMODUnity.Platform/PropertySpeakerMode" preserve="nothing" serialized="true"/>
+		<type fullname="FMODUnity.Platform/PropertyStorage" preserve="nothing" serialized="true"/>
+		<type fullname="FMODUnity.Platform/PropertyString" preserve="nothing" serialized="true"/>
+		<type fullname="FMODUnity.Platform/PropertyStringList" preserve="nothing" serialized="true"/>
+		<type fullname="FMODUnity.Platform/PropertyThreadAffinityList" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Unity.InputSystem">
+		<type fullname="UnityEngine.InputSystem.InputAction" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.InputActionMap" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.InputBinding" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.InputControlScheme" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.InputSystem.InputControlScheme/DeviceRequirement" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Unity.TextMeshPro">
+		<type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.KerningTable" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_Sprite" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.TMP_Style" preserve="nothing" serialized="true"/>
+		<type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="Unity.Timeline">
+		<type fullname="UnityEngine.Timeline.MarkerList" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Timeline.TimelineAsset/EditorSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Timeline.TimelineClip" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule">
+		<type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.TextCoreFontEngineModule">
+		<type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.TextCore.LowLevel.GlyphValueRecord" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.UI">
+		<type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true"/>
+	</assembly>
+</linker>

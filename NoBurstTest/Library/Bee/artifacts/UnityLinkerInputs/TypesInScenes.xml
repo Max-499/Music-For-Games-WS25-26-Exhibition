@@ -1,0 +1,107 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="AKeySoundTrigger" preserve="nothing"/>
+		<type fullname="CameraStickControl" preserve="nothing"/>
+		<type fullname="CanvasFadeInOut" preserve="nothing"/>
+		<type fullname="CursorDiagnostics" preserve="nothing"/>
+		<type fullname="CursorEscapeToggle" preserve="nothing"/>
+		<type fullname="ExitToLauncher" preserve="nothing"/>
+		<type fullname="KioskPointerControl" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="FMODUnity">
+		<type fullname="FMODUnity.FMODEventPlayable" preserve="nothing"/>
+		<type fullname="FMODUnity.FMODEventTrack" preserve="nothing"/>
+		<type fullname="FMODUnity.PlatformAndroid" preserve="nothing"/>
+		<type fullname="FMODUnity.PlatformAppleTV" preserve="nothing"/>
+		<type fullname="FMODUnity.PlatformDefault" preserve="nothing"/>
+		<type fullname="FMODUnity.PlatformIOS" preserve="nothing"/>
+		<type fullname="FMODUnity.PlatformLinux" preserve="nothing"/>
+		<type fullname="FMODUnity.PlatformMac" preserve="nothing"/>
+		<type fullname="FMODUnity.PlatformMobileHigh" preserve="nothing"/>
+		<type fullname="FMODUnity.PlatformMobileLow" preserve="nothing"/>
+		<type fullname="FMODUnity.PlatformPlayInEditor" preserve="nothing"/>
+		<type fullname="FMODUnity.PlatformVisionOS" preserve="nothing"/>
+		<type fullname="FMODUnity.PlatformWebGL" preserve="nothing"/>
+		<type fullname="FMODUnity.PlatformWindows" preserve="nothing"/>
+		<type fullname="FMODUnity.Settings" preserve="nothing"/>
+		<type fullname="FMODUnity.StudioListener" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Unity.InputSystem">
+		<type fullname="UnityEngine.InputSystem.Editor.InputDebuggerWindow" preserve="nothing"/>
+		<type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="nothing"/>
+		<type fullname="UnityEngine.InputSystem.InputActionReference" preserve="nothing"/>
+		<type fullname="UnityEngine.InputSystem.InputSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.InputSystem.InputSystemObject" preserve="nothing"/>
+		<type fullname="UnityEngine.InputSystem.RemoteInputPlayerConnection" preserve="nothing"/>
+		<type fullname="UnityEngine.InputSystem.UI.InputSystemUIInputModule" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Unity.TextMeshPro">
+		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
+		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
+		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
+		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
+		<type fullname="TMPro.TMP_StyleSheet" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Unity.Timeline">
+		<type fullname="UnityEngine.Timeline.TimelineAsset" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="UnityEngine">
+		<type fullname="UnityEditor.AudioManager" preserve="nothing"/>
+		<type fullname="UnityEditor.InputManager" preserve="nothing"/>
+		<type fullname="UnityEditor.MonoManager" preserve="nothing"/>
+		<type fullname="UnityEditor.MonoScript" preserve="nothing"/>
+		<type fullname="UnityEditor.Physics2DSettings" preserve="nothing"/>
+		<type fullname="UnityEditor.PlayerSettings" preserve="nothing"/>
+		<type fullname="UnityEditor.TagManager" preserve="nothing"/>
+		<type fullname="UnityEditor.TimeManager" preserve="nothing"/>
+		<type fullname="UnityEditor.VFXManager" preserve="nothing"/>
+		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
+		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
+		<type fullname="UnityEngine.Behaviour" preserve="nothing"/>
+		<type fullname="UnityEngine.Camera" preserve="nothing"/>
+		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
+		<type fullname="UnityEngine.CanvasGroup" preserve="nothing"/>
+		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.CapsuleCollider" preserve="nothing"/>
+		<type fullname="UnityEngine.Collider" preserve="nothing"/>
+		<type fullname="UnityEngine.Component" preserve="nothing"/>
+		<type fullname="UnityEngine.Cubemap" preserve="nothing"/>
+		<type fullname="UnityEngine.Font" preserve="nothing"/>
+		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
+		<type fullname="UnityEngine.Light" preserve="nothing"/>
+		<type fullname="UnityEngine.LightmapSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.Material" preserve="nothing"/>
+		<type fullname="UnityEngine.Mesh" preserve="nothing"/>
+		<type fullname="UnityEngine.MeshCollider" preserve="nothing"/>
+		<type fullname="UnityEngine.MeshFilter" preserve="nothing"/>
+		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.MonoBehaviour" preserve="nothing"/>
+		<type fullname="UnityEngine.Object" preserve="nothing"/>
+		<type fullname="UnityEngine.Playables.PlayableDirector" preserve="nothing"/>
+		<type fullname="UnityEngine.QualitySettings" preserve="nothing"/>
+		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
+		<type fullname="UnityEngine.Renderer" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.GraphicsSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.RenderTexture" preserve="nothing"/>
+		<type fullname="UnityEngine.Shader" preserve="nothing"/>
+		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
+		<type fullname="UnityEngine.TextAsset" preserve="nothing"/>
+		<type fullname="UnityEngine.Texture" preserve="nothing"/>
+		<type fullname="UnityEngine.Texture2D" preserve="nothing"/>
+		<type fullname="UnityEngine.Transform" preserve="nothing"/>
+		<type fullname="UnityEngine.Video.VideoClip" preserve="nothing"/>
+		<type fullname="UnityEngine.Video.VideoPlayer" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="UnityEngine.UI">
+		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Button" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.ContentSizeFitter" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.GraphicRaycaster" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.GridLayoutGroup" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Image" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.LayoutElement" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.RawImage" preserve="nothing"/>
+	</assembly>
+</linker>

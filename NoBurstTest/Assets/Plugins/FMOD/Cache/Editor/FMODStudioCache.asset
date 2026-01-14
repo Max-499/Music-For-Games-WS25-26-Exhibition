@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8630298666917656247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DamonLeeEvents/OneShotTest
+  m_EditorClassIdentifier: 
+  Path: event:/DamonLeeEvents/OneShotTest
+  Guid:
+    Data1: -1556093209
+    Data2: 1115824468
+    Data3: 2086690707
+    Data4: 142822206
+  Banks:
+  - {fileID: -7232416443861263587}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 192
 --- !u!114 &-8191046449839235682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19,6 +46,7 @@ MonoBehaviour:
     Data3: 542931591
     Data4: 704882112
   Banks:
+  - {fileID: 2243853112083021171}
   - {fileID: 8189616215666715656}
   IsStream: 0
   Is3D: 0
@@ -27,6 +55,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-7232416443861263587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/DamonLee.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD_Music_For_Games2Test/Build/Desktop/DamonLee.bank
+  Name: DamonLee
+  StudioPath: bank:/DamonLee
+  lastModified: 638991375909237430
+  FileSizes:
+  - Name: Desktop
+    Value: 722848
+  Exists: 1
 --- !u!114 &-4429814658157017737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,10 +90,132 @@ MonoBehaviour:
   Path: FMOD_Music_For_Games2Test/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638983750051677751
+  lastModified: 638991375183628382
   FileSizes:
   - Name: Desktop
-    Value: 766
+    Value: 970
+  Exists: 1
+--- !u!114 &-2853572233429220007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DamonLeeEvents/Hover
+  m_EditorClassIdentifier: 
+  Path: event:/DamonLeeEvents/Hover
+  Guid:
+    Data1: 1400940354
+    Data2: 1254760810
+    Data3: 1035284909
+    Data4: -1173650369
+  Banks:
+  - {fileID: 2243853112083021171}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 49191
+--- !u!114 &-2438755061711365433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DamonLeeEvents/OneShotTest
+  m_EditorClassIdentifier: 
+  Path: event:/DamonLeeEvents/OneShotTest
+  Guid:
+    Data1: -1556093209
+    Data2: 1115824468
+    Data3: 2086690707
+    Data4: 142822206
+  Banks:
+  - {fileID: 2243853112083021171}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 192
+--- !u!114 &-2054320917747017333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD_Music_For_Games2Test/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638991375183628382
+  FileSizes:
+  - Name: Desktop
+    Value: 970
+  Exists: 1
+--- !u!114 &-1064050588294119483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Test
+  m_EditorClassIdentifier: 
+  Path: event:/Test
+  Guid:
+    Data1: 1608307788
+    Data2: 1154465924
+    Data3: 542931591
+    Data4: 704882112
+  Banks:
+  - {fileID: -7232416443861263587}
+  - {fileID: -958952317017407674}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-958952317017407674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD_Music_For_Games2Test/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638991375183624387
+  FileSizes:
+  - Name: Desktop
+    Value: 1612
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -60,20 +230,131 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -4429814658157017737}
-  - {fileID: 8189616215666715656}
+  - {fileID: -2054320917747017333}
+  - {fileID: -7232416443861263587}
+  - {fileID: -958952317017407674}
   EditorEvents:
-  - {fileID: -8191046449839235682}
+  - {fileID: 2975191152866988261}
+  - {fileID: -1064050588294119483}
+  - {fileID: 5332507958792895719}
+  - {fileID: -8630298666917656247}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 8189616215666715656}
+  - {fileID: -958952317017407674}
   StringsBanks:
-  - {fileID: -4429814658157017737}
+  - {fileID: -2054320917747017333}
   cacheVersion: 131856
-  cacheTime: 638983750051677751
+  cacheTime: 638991375909237430
   SerializableEventsDict:
-  - key: event:/Test
+  - key: event:/DamonLeeEvents/Hover
     index: 0
+  - key: event:/Test
+    index: 1
+  - key: event:/DamonLeeEvents/Train
+    index: 2
+  - key: event:/DamonLeeEvents/OneShotTest
+    index: 3
+--- !u!114 &2243853112083021171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/DamonLee.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD_Music_For_Games2Test/Build/Desktop/DamonLee.bank
+  Name: DamonLee
+  StudioPath: bank:/DamonLee
+  lastModified: 638991375909237430
+  FileSizes:
+  - Name: Desktop
+    Value: 722848
+  Exists: 1
+--- !u!114 &2746851114989449677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DamonLeeEvents/Train
+  m_EditorClassIdentifier: 
+  Path: event:/DamonLeeEvents/Train
+  Guid:
+    Data1: -1272658243
+    Data2: 1114170602
+    Data3: -1929720689
+    Data4: 708558033
+  Banks:
+  - {fileID: 2243853112083021171}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18500
+--- !u!114 &2975191152866988261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DamonLeeEvents/Hover
+  m_EditorClassIdentifier: 
+  Path: event:/DamonLeeEvents/Hover
+  Guid:
+    Data1: 1400940354
+    Data2: 1254760810
+    Data3: 1035284909
+    Data4: -1173650369
+  Banks:
+  - {fileID: -7232416443861263587}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 49191
+--- !u!114 &5332507958792895719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DamonLeeEvents/Train
+  m_EditorClassIdentifier: 
+  Path: event:/DamonLeeEvents/Train
+  Guid:
+    Data1: -1272658243
+    Data2: 1114170602
+    Data3: -1929720689
+    Data4: 708558033
+  Banks:
+  - {fileID: -7232416443861263587}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 18500
 --- !u!114 &8189616215666715656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,7 +370,7 @@ MonoBehaviour:
   Path: FMOD_Music_For_Games2Test/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638983750051676958
+  lastModified: 638991375183624387
   FileSizes:
   - Name: Desktop
     Value: 1612

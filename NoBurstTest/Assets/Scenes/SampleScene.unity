@@ -400,6 +400,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quad-based Projection
       objectReference: {fileID: 0}
+    - target: {fileID: 6653948016658767809, guid: b7dbe77fe7a0b4c57b56a598a7e626fa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -496,6 +500,10 @@ PrefabInstance:
     - target: {fileID: 7233615961367992398, guid: e3e7bcf38e1a549a681feaf0ecc75ced, type: 3}
       propertyPath: m_Name
       value: Canvas-based projectiom
+      objectReference: {fileID: 0}
+    - target: {fileID: 7233615961367992398, guid: e3e7bcf38e1a549a681feaf0ecc75ced, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

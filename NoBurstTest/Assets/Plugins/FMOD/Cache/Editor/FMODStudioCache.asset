@@ -1,33 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8191046449839235682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Test
-  m_EditorClassIdentifier: 
-  Path: event:/Test
-  Guid:
-    Data1: 1608307788
-    Data2: 1154465924
-    Data3: 542931591
-    Data4: 704882112
-  Banks:
-  - {fileID: 8189616215666715656}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-4429814658157017737
+--- !u!114 &-9088698410249353421
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,15 +10,139 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Name: bank:/Master_HG.bank
   m_EditorClassIdentifier: 
-  Path: FMOD_Music_For_Games2Test/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638983750051677751
+  Path: ../../../HfM Karlsruhe/Music for Games II/MfG2_Project/fmod_session/MfG2_audio/Build/Desktop/Master_HG.bank
+  Name: Master_HG
+  StudioPath: bank:/Master_HG
+  lastModified: 639039326608041783
   FileSizes:
   - Name: Desktop
-    Value: 766
+    Value: 2081088
+  Exists: 1
+--- !u!114 &-9020736452211181165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/StartSFX
+  m_EditorClassIdentifier: 
+  Path: event:/StartSFX
+  Guid:
+    Data1: -698443096
+    Data2: 1213427689
+    Data3: -460923974
+    Data4: -936973357
+  Banks:
+  - {fileID: -9088698410249353421}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3136621745931000526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BackgroundMusic
+  m_EditorClassIdentifier: 
+  Path: event:/BackgroundMusic
+  Guid:
+    Data1: 950463919
+    Data2: 1263071071
+    Data3: 490050714
+    Data4: 996213220
+  Banks:
+  - {fileID: -9088698410249353421}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -420387168478404019}
+  - {fileID: -2672268256777028761}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28000
+--- !u!114 &-2672268256777028761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusic/Glitch
+  m_EditorClassIdentifier: 
+  Name: Glitch
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1310268256
+    data2: 4012958282
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-420387168478404019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackgroundMusic/Progress
+  m_EditorClassIdentifier: 
+  Name: Progress
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 943256787
+    data2: 1643127194
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-325020521895408078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master_HG.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../../HfM Karlsruhe/Music for Games II/MfG2_Project/fmod_session/MfG2_audio/Build/Desktop/Master_HG.strings.bank
+  Name: Master_HG.strings
+  StudioPath: bank:/Master_HG.strings
+  lastModified: 639039326608061783
+  FileSizes:
+  - Name: Desktop
+    Value: 976
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -60,21 +157,25 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -4429814658157017737}
-  - {fileID: 8189616215666715656}
+  - {fileID: 3382672434795479747}
+  - {fileID: -325020521895408078}
+  - {fileID: -9088698410249353421}
   EditorEvents:
-  - {fileID: -8191046449839235682}
+  - {fileID: -3136621745931000526}
+  - {fileID: -9020736452211181165}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 8189616215666715656}
+  - {fileID: -9088698410249353421}
   StringsBanks:
-  - {fileID: -4429814658157017737}
+  - {fileID: -325020521895408078}
   cacheVersion: 131856
-  cacheTime: 638983750051677751
+  cacheTime: 639039326608061783
   SerializableEventsDict:
-  - key: event:/Test
+  - key: event:/BackgroundMusic
     index: 0
---- !u!114 &8189616215666715656
+  - key: event:/StartSFX
+    index: 1
+--- !u!114 &3382672434795479747
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -84,13 +185,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Name: bank:/Music.bank
   m_EditorClassIdentifier: 
-  Path: FMOD_Music_For_Games2Test/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638983750051676958
+  Path: ../../../HfM Karlsruhe/Music for Games II/MfG2_Project/fmod_session/MfG2_audio/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 639033427750896086
   FileSizes:
   - Name: Desktop
-    Value: 1612
+    Value: 506
   Exists: 1

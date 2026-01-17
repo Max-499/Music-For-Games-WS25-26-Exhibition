@@ -1,18 +1,18 @@
 {
   "context": {
-    "projectPath": "/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Packages",
+    "projectPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Packages",
     "unityVersion": "6000.0.59f2"
   },
   "inputs": [
-    "/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Packages/manifest.json",
-    "/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Packages/packages-lock.json",
-    "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
+    "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Packages/manifest.json",
+    "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Packages/packages-lock.json",
+    "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.collab-proxy@2.10.2": {
       "name": "com.unity.collab-proxy",
       "displayName": "Unity Version Control",
-      "resolvedPath": "/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.collab-proxy@3351acaba9c9",
+      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.collab-proxy@3351acaba9c9",
       "fingerprint": "3351acaba9c9f7fc41d4b2404fc11c55d01ab0ad",
       "editorCompatibility": "2021.3.0f1",
       "version": "2.10.2",
@@ -22,7 +22,7 @@
     "com.unity.feature.development@1.0.2": {
       "name": "com.unity.feature.development",
       "displayName": "Engineering",
-      "resolvedPath": "/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.feature.development@767aadbc6eb7",
+      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.feature.development@767aadbc6eb7",
       "fingerprint": "767aadbc6eb72681a4ca807c8fa248e0230a0cef",
       "version": "1.0.2",
       "source": "builtin",
@@ -31,7 +31,7 @@
     "com.unity.inputsystem@1.14.2": {
       "name": "com.unity.inputsystem",
       "displayName": "Input System",
-      "resolvedPath": "/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5",
+      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5",
       "fingerprint": "be6c4fd0abf5b9b45f956b97294032a67f3c2f4d",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.14.2",
@@ -41,8 +41,8 @@
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
-      "resolvedPath": "/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.multiplayer.center@f3fb577b3546",
-      "fingerprint": "f3fb577b3546594b97b8cc34307cd621f60f1c73",
+      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.multiplayer.center@f5e57a8bed06",
+      "fingerprint": "f5e57a8bed0637672c58142b1bfd7e6fea03746c",
       "editorCompatibility": "6000.0.0a1",
       "version": "1.0.0",
       "source": "builtin",
@@ -51,18 +51,28 @@
     "com.unity.timeline@1.8.9": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.timeline@6b9e48457ddb",
+      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.timeline@6b9e48457ddb",
       "fingerprint": "6b9e48457ddb4f64813d77fd77efc79a8f3102ae",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.8.9",
       "source": "registry",
       "testable": false
     },
+    "com.unity.toolchain.linux-x86_64@2.0.11": {
+      "name": "com.unity.toolchain.linux-x86_64",
+      "displayName": "Toolchain Linux x64",
+      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.toolchain.linux-x86_64@53b88ff74b51",
+      "fingerprint": "53b88ff74b51ed43afb11336ab6f5495d1f91478",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.11",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
-      "resolvedPath": "/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ugui@23b1a4ff749d",
-      "fingerprint": "23b1a4ff749d69614ac83bcec9b1eb5d286cc9f0",
+      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ugui@6e70627056d3",
+      "fingerprint": "6e70627056d3f554418df18d17333c7f4ae7583b",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
       "source": "builtin",
@@ -71,7 +81,7 @@
     "com.unity.visualscripting@1.9.7": {
       "name": "com.unity.visualscripting",
       "displayName": "Visual Scripting",
-      "resolvedPath": "/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.visualscripting@6279e2b7c485",
+      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.visualscripting@6279e2b7c485",
       "fingerprint": "6279e2b7c4858e56cca7f367cd38c49ef66778c9",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.9.7",
@@ -81,7 +91,7 @@
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.accessibility",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.accessibility",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -89,7 +99,7 @@
     "com.unity.modules.ai@1.0.0": {
       "name": "com.unity.modules.ai",
       "displayName": "AI",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -97,7 +107,7 @@
     "com.unity.modules.androidjni@1.0.0": {
       "name": "com.unity.modules.androidjni",
       "displayName": "Android JNI",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.androidjni",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.androidjni",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -105,7 +115,7 @@
     "com.unity.modules.animation@1.0.0": {
       "name": "com.unity.modules.animation",
       "displayName": "Animation",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -113,7 +123,7 @@
     "com.unity.modules.assetbundle@1.0.0": {
       "name": "com.unity.modules.assetbundle",
       "displayName": "Asset Bundle",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.assetbundle",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.assetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -121,7 +131,7 @@
     "com.unity.modules.audio@1.0.0": {
       "name": "com.unity.modules.audio",
       "displayName": "Audio",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.audio",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.audio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -129,7 +139,7 @@
     "com.unity.modules.cloth@1.0.0": {
       "name": "com.unity.modules.cloth",
       "displayName": "Cloth",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -137,7 +147,7 @@
     "com.unity.modules.director@1.0.0": {
       "name": "com.unity.modules.director",
       "displayName": "Director",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.director",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.director",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -145,7 +155,7 @@
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
       "displayName": "Image Conversion",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -153,7 +163,7 @@
     "com.unity.modules.imgui@1.0.0": {
       "name": "com.unity.modules.imgui",
       "displayName": "IMGUI",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imgui",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.imgui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -161,7 +171,7 @@
     "com.unity.modules.jsonserialize@1.0.0": {
       "name": "com.unity.modules.jsonserialize",
       "displayName": "JSONSerialize",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.jsonserialize",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.jsonserialize",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -169,7 +179,7 @@
     "com.unity.modules.particlesystem@1.0.0": {
       "name": "com.unity.modules.particlesystem",
       "displayName": "Particle System",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.particlesystem",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.particlesystem",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -177,7 +187,7 @@
     "com.unity.modules.physics@1.0.0": {
       "name": "com.unity.modules.physics",
       "displayName": "Physics",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -185,7 +195,7 @@
     "com.unity.modules.physics2d@1.0.0": {
       "name": "com.unity.modules.physics2d",
       "displayName": "Physics 2D",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -193,7 +203,7 @@
     "com.unity.modules.screencapture@1.0.0": {
       "name": "com.unity.modules.screencapture",
       "displayName": "Screen Capture",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -201,7 +211,7 @@
     "com.unity.modules.terrain@1.0.0": {
       "name": "com.unity.modules.terrain",
       "displayName": "Terrain",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrain",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrain",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -209,7 +219,7 @@
     "com.unity.modules.terrainphysics@1.0.0": {
       "name": "com.unity.modules.terrainphysics",
       "displayName": "Terrain Physics",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrainphysics",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrainphysics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -217,7 +227,7 @@
     "com.unity.modules.tilemap@1.0.0": {
       "name": "com.unity.modules.tilemap",
       "displayName": "Tilemap",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.tilemap",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.tilemap",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -225,7 +235,7 @@
     "com.unity.modules.ui@1.0.0": {
       "name": "com.unity.modules.ui",
       "displayName": "UI",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -233,7 +243,7 @@
     "com.unity.modules.uielements@1.0.0": {
       "name": "com.unity.modules.uielements",
       "displayName": "UIElements",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -241,7 +251,7 @@
     "com.unity.modules.umbra@1.0.0": {
       "name": "com.unity.modules.umbra",
       "displayName": "Umbra",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.umbra",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.umbra",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -249,7 +259,7 @@
     "com.unity.modules.unityanalytics@1.0.0": {
       "name": "com.unity.modules.unityanalytics",
       "displayName": "Unity Analytics",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unityanalytics",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unityanalytics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -257,7 +267,7 @@
     "com.unity.modules.unitywebrequest@1.0.0": {
       "name": "com.unity.modules.unitywebrequest",
       "displayName": "Unity Web Request",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequest",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequest",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -265,7 +275,7 @@
     "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
       "name": "com.unity.modules.unitywebrequestassetbundle",
       "displayName": "Unity Web Request Asset Bundle",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestassetbundle",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestassetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -273,7 +283,7 @@
     "com.unity.modules.unitywebrequestaudio@1.0.0": {
       "name": "com.unity.modules.unitywebrequestaudio",
       "displayName": "Unity Web Request Audio",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestaudio",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestaudio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -281,7 +291,7 @@
     "com.unity.modules.unitywebrequesttexture@1.0.0": {
       "name": "com.unity.modules.unitywebrequesttexture",
       "displayName": "Unity Web Request Texture",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -289,7 +299,7 @@
     "com.unity.modules.unitywebrequestwww@1.0.0": {
       "name": "com.unity.modules.unitywebrequestwww",
       "displayName": "Unity Web Request WWW",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestwww",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestwww",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -297,7 +307,7 @@
     "com.unity.modules.vehicles@1.0.0": {
       "name": "com.unity.modules.vehicles",
       "displayName": "Vehicles",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vehicles",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.vehicles",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -305,7 +315,7 @@
     "com.unity.modules.video@1.0.0": {
       "name": "com.unity.modules.video",
       "displayName": "Video",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.video",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.video",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -313,7 +323,7 @@
     "com.unity.modules.vr@1.0.0": {
       "name": "com.unity.modules.vr",
       "displayName": "VR",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vr",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.vr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -321,7 +331,7 @@
     "com.unity.modules.wind@1.0.0": {
       "name": "com.unity.modules.wind",
       "displayName": "Wind",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -329,7 +339,7 @@
     "com.unity.modules.xr@1.0.0": {
       "name": "com.unity.modules.xr",
       "displayName": "XR",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -337,7 +347,7 @@
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
       "displayName": "Subsystems",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.subsystems",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.subsystems",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -345,15 +355,35 @@
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
       "displayName": "Hierarchy Core",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.59f2-arm64/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore",
+      "resolvedPath": "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore",
       "version": "1.0.0",
       "source": "builtin",
+      "testable": false
+    },
+    "com.unity.sysroot@2.0.10": {
+      "name": "com.unity.sysroot",
+      "displayName": "Sysroot Base",
+      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.sysroot@7bbbb9339c14",
+      "fingerprint": "7bbbb9339c143f6fbccaeb0a52c77b9217b35a71",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.10",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.sysroot.linux-x86_64@2.0.9": {
+      "name": "com.unity.sysroot.linux-x86_64",
+      "displayName": "Sysroot Linux x64",
+      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.sysroot.linux-x86_64@1998d1c7730e",
+      "fingerprint": "1998d1c7730e48fa49f28d983fececfc9cbd970b",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.9",
+      "source": "registry",
       "testable": false
     },
     "com.unity.ide.visualstudio@2.0.23": {
       "name": "com.unity.ide.visualstudio",
       "displayName": "Visual Studio Editor",
-      "resolvedPath": "/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13",
+      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13",
       "fingerprint": "198cdf337d13c83ca953581515630d66b779e92b",
       "editorCompatibility": "2019.4.25f1",
       "version": "2.0.23",
@@ -363,7 +393,7 @@
     "com.unity.ide.rider@3.0.38": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ide.rider@1f60b3138684",
+      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ide.rider@1f60b3138684",
       "fingerprint": "1f60b3138684c97af67aa8d911b1632ba916d29d",
       "editorCompatibility": "2021.3.0a1",
       "version": "3.0.38",
@@ -373,7 +403,7 @@
     "com.unity.editorcoroutines@1.0.0": {
       "name": "com.unity.editorcoroutines",
       "displayName": "Editor Coroutines",
-      "resolvedPath": "/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.editorcoroutines@7d48783e7b8c",
+      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.editorcoroutines@7d48783e7b8c",
       "fingerprint": "7d48783e7b8cfcee5f8ef9ba787ed0d9dad4ebca",
       "editorCompatibility": "2018.1.0a1",
       "version": "1.0.0",
@@ -383,7 +413,7 @@
     "com.unity.performance.profile-analyzer@1.2.3": {
       "name": "com.unity.performance.profile-analyzer",
       "displayName": "Profile Analyzer",
-      "resolvedPath": "/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.performance.profile-analyzer@a68e7bc84997",
+      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.performance.profile-analyzer@a68e7bc84997",
       "fingerprint": "a68e7bc849973d943853204178d08a2bc7656ffe",
       "editorCompatibility": "2020.3.0a1",
       "version": "1.2.3",
@@ -393,8 +423,8 @@
     "com.unity.test-framework@1.6.0": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.test-framework@0baaad2f700c",
-      "fingerprint": "0baaad2f700c671c6932db856fb80e6fa04b1bde",
+      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.test-framework@5a94d5314a5a",
+      "fingerprint": "5a94d5314a5a389de500f1b1f27ea1a18cfbb200",
       "editorCompatibility": "6000.0.44f1",
       "version": "1.6.0",
       "source": "builtin",
@@ -403,7 +433,7 @@
     "com.unity.testtools.codecoverage@1.2.6": {
       "name": "com.unity.testtools.codecoverage",
       "displayName": "Code Coverage",
-      "resolvedPath": "/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.testtools.codecoverage@205a02cbcb39",
+      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.testtools.codecoverage@205a02cbcb39",
       "fingerprint": "205a02cbcb39584f20b51c49b853047aceb3a3a7",
       "editorCompatibility": "2019.3.0a1",
       "version": "1.2.6",
@@ -413,7 +443,7 @@
     "com.unity.settings-manager@2.1.0": {
       "name": "com.unity.settings-manager",
       "displayName": "Settings Manager",
-      "resolvedPath": "/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.settings-manager@41738c275190",
+      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.settings-manager@41738c275190",
       "fingerprint": "41738c27519039c335849eb78949382f4d7a3544",
       "editorCompatibility": "2022.3.0a1",
       "version": "2.1.0",
@@ -423,8 +453,8 @@
     "com.unity.ext.nunit@2.0.5": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
-      "resolvedPath": "/Users/damonleehfmlaptop/Documents/Github/2025/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ext.nunit@031a54704bff",
-      "fingerprint": "031a54704bffe39e6a0324909f8eaa4565bdebf2",
+      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ext.nunit@b16e6d09cd93",
+      "fingerprint": "b16e6d09cd93f527249a1f05a86ef45695dc934b",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.5",
       "source": "builtin",

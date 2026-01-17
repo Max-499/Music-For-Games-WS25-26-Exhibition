@@ -234,8 +234,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: FMOD_Music_For_Games2Test/FMOD_Music_For_Games2Test.fspro
-  sourceBankPath: FMOD_Music_For_Games2Test/Build
+  sourceProjectPath: ../../../HfM Karlsruhe/Music for Games II/MfG2_Project/fmod_session/MfG2_audio/MfG2_audio.fspro
+  sourceBankPath: ../../../HfM Karlsruhe/Music for Games II/MfG2_Project/fmod_session/MfG2_audio/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -258,8 +258,9 @@ MonoBehaviour:
   RealChannelSettings: []
   Plugins: []
   MasterBanks:
-  - Master
-  Banks: []
+  - Master_HG
+  Banks:
+  - Music
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

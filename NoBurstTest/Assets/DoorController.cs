@@ -18,6 +18,7 @@ public class DoorController : MonoBehaviour
 
     [Header("Artistic Chaos Settings")]
     public string fmodParameterName = "Progress";
+    public string lowNoteParameterName = "LowNoteRandom";
     [Range(0, 1)] public float glitchThreshold = 0.7f; 
     [Range(0, 1)] public float impossibleThreshold = 0.98f;
     
@@ -130,96 +131,99 @@ public class DoorController : MonoBehaviour
         hasPlayedStartSFX = false;
         currentRumbleValue = 0f; // Reset fade tracker
         Debug.Log($"<color=cyan>NEW TARGET:</color> Machine requires {buttonNames[currentButtonIndex]}");
+        
+        // ROLL FOR NEW LOW NOTE
+        int randomLowNote = Random.Range(0, 3); // Results in 0, 1, or 2
+        fmodEmitter.SetParameter(lowNoteParameterName, (float)randomLowNote);
+    
+        Debug.Log($"<color=orange>FMOD:</color> LowNoteRandom set to {randomLowNote}");
     }
 
     IEnumerator GlitchSequence()
+{
+    isGlitching = true;
+    Debug.Log("<color=red>!!! GLITCH STATE ACTIVE !!!</color>");
+    
+    videoPlayer.Pause();
+    SetRumble(0, 0);
+    currentRumbleValue = 0f;
+    fmodEmitter.SetParameter("Glitch", 1f);
+    yield return new WaitForSeconds(2.0f); // The 2-second "Frozen" suspense
+
+    int jumpCount = Random.Range(8, 16);
+    long minD = (long)(videoPlayer.frameCount * 0.15f);
+    long curF = (long)(videoPlayer.frameCount * 0.8 / jumpCount);
+
+    for (int i = 0; i < jumpCount; i++)
     {
-        isGlitching = true;
-        Debug.Log("<color=red>!!! GLITCH STATE ACTIVE !!!</color>");
-        
-        videoPlayer.Pause();
-        fmodEmitter.SetParameter("Glitch", 1f);
+        // 1. Alternating Rumble Burst
+        if (i % 2 == 0) SetRumble(Random.Range(0.6f, 0.9f), 0f);
+        else SetRumble(0f, Random.Range(0.6f, 0.9f));
 
-        int jumpCount = Random.Range(4, 8);
-        long minF = (long)(videoPlayer.frameCount * 0.15f);
-        long maxF = (long)(videoPlayer.frameCount * 0.95f);
-        long minD = (long)(videoPlayer.frameCount * 0.15f);
+        // 2. Logic: Find the frame
+        long rFrame;
+        int safety = 0;
+        do {
+            rFrame = (long)Random.Range((jumpCount - i) * curF + minD, (jumpCount - i) * curF + curF + minD);
+            safety++;
+        } while (Mathf.Abs(rFrame - lastGlitchFrame) < minD && safety < 10);
 
-        for (int i = 0; i < jumpCount; i++)
+        lastGlitchFrame = rFrame;
+        videoPlayer.frame = rFrame;
+
+        while (videoPlayer.frame != rFrame) yield return null;
+
+        // 3. Visuals (Mirroring/Jitter)
+        if (videoDisplayRect != null)
         {
-            long rFrame;
-            int safety = 0;
-            do {
-                rFrame = (long)Random.Range(minF, maxF);
-                safety++;
-            } while (Mathf.Abs(rFrame - lastGlitchFrame) < minD && safety < 10);
-
-            lastGlitchFrame = rFrame;
-            videoPlayer.frame = rFrame;
-
-            while (videoPlayer.frame != rFrame) yield return null;
-
-            // --- STRONK ASYMMETRIC RUMBLE ---
-            // Randomize left and right motors independently so it feels "broken"
-            SetRumble(Random.Range(0.4f, 0.9f), Random.Range(0.4f, 0.9f));
-
-            if (videoDisplayRect != null)
-            {
-                // 20% Chance for mirroring
-                float flipX = (Random.value < 0.2f) ? -originalScale.x : originalScale.x;
-                float flipY = (Random.value < 0.2f) ? -originalScale.y : originalScale.y;
-                videoDisplayRect.localScale = new Vector3(flipX, flipY, originalScale.z);
-                
-                videoDisplayRect.anchoredPosition = new Vector2(Random.Range(-jitterAmount, jitterAmount), Random.Range(-jitterAmount, jitterAmount));
-            }
-
-            if (videoRawImage != null)
-            {
-                float h, s, v;
-                Color.RGBToHSV(originalColor, out h, out s, out v);
-
-                float roll = UnityEngine.Random.value;
-                if (roll < 0.33f) 
-                {
-                    videoRawImage.color = Color.HSVToRGB(h, 0.4f, v);
-                }
-                else if (roll < 0.66f) 
-                {
-                    videoRawImage.color = Color.HSVToRGB(h, maxSaturation, maxBrightness);
-                }
-                else 
-                {
-                    float shiftedH = (h + UnityEngine.Random.Range(-hueShiftRange, hueShiftRange)) % 1f;
-                    videoRawImage.color = Color.HSVToRGB(shiftedH, 1.0f, 1.0f);
-                }
-            }
-
-            fmodEmitter.SetParameter(fmodParameterName, (float)videoPlayer.frame / videoPlayer.frameCount);
-            Debug.Log($"Glitch Jump {i+1}/{jumpCount}");
-            yield return new WaitForSeconds(Random.Range(0.06f, 0.2f));
+            float flipX = (Random.value < 0.2f) ? -originalScale.x : originalScale.x;
+            float flipY = (Random.value < 0.2f) ? -originalScale.y : originalScale.y;
+            videoDisplayRect.localScale = new Vector3(flipX, flipY, originalScale.z);
+            videoDisplayRect.anchoredPosition = new Vector2(Random.Range(-jitterAmount, jitterAmount), Random.Range(-jitterAmount, jitterAmount));
         }
 
-        // --- RESET ---
-        videoPlayer.frame = 0;
-        while (videoPlayer.frame != 0) yield return null;
-        videoPlayer.Pause();
-        
-        if (videoDisplayRect != null) 
+        // 4. Visuals (Color)
+        if (videoRawImage != null)
         {
-            videoDisplayRect.localScale = originalScale;
-            videoDisplayRect.anchoredPosition = Vector2.zero;
+            float h, s, v;
+            Color.RGBToHSV(originalColor, out h, out s, out v);
+            float roll = Random.value;
+            if (roll < 0.33f) videoRawImage.color = Color.HSVToRGB(h, 0.4f, v);
+            else if (roll < 0.66f) videoRawImage.color = Color.HSVToRGB(h, maxSaturation, maxBrightness);
+            else {
+                float shiftedH = (h + Random.Range(-hueShiftRange, hueShiftRange)) % 1f;
+                videoRawImage.color = Color.HSVToRGB(shiftedH, 1.0f, 1.0f);
+            }
         }
-        if (videoRawImage != null) videoRawImage.color = originalColor;
 
-        fmodEmitter.SetParameter(fmodParameterName, 0f);
-        fmodEmitter.SetParameter("Glitch", 0f);
+        fmodEmitter.SetParameter(fmodParameterName, (float)videoPlayer.frame / videoPlayer.frameCount);
         
-        SetRumble(0, 0); // Stop rumble immediately
-        PickRandomButton();
-        instructionCanvasGroup.alpha = 1f;
-        isGlitching = false;
-        Debug.Log("<color=green>GLITCH STATE DEACTIVATED.</color>");
+        // 5. Short Burst Duration
+        yield return new WaitForSeconds(0.03f); 
+        SetRumble(0, 0); // Kill rumble so it's a "clunk" not a "buzz"
+        yield return new WaitForSeconds(Random.Range(0.01f, 0.04f)); 
     }
+
+    // --- RESET SEQUENCE ---
+    videoPlayer.frame = 0;
+    while (videoPlayer.frame != 0) yield return null;
+    videoPlayer.Pause();
+    
+    if (videoDisplayRect != null) {
+        videoDisplayRect.localScale = originalScale;
+        videoDisplayRect.anchoredPosition = Vector2.zero;
+    }
+    if (videoRawImage != null) videoRawImage.color = originalColor;
+
+    fmodEmitter.SetParameter(fmodParameterName, 0f);
+    fmodEmitter.SetParameter("Glitch", 0f);
+    
+    SetRumble(0, 0);
+    PickRandomButton(); // THIS CALLS THE NEW LOW NOTE LOGIC
+    instructionCanvasGroup.alpha = 1f;
+    isGlitching = false;
+    Debug.Log("<color=green>GLITCH STATE DEACTIVATED.</color>");
+}
     
     void SetRumble(float low, float high)
     {

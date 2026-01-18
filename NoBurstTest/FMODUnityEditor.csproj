@@ -447,6 +447,9 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.collections@56bff8827a7e/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ext.nunit@b16e6d09cd93/net40/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
@@ -476,9 +479,6 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.collections@56bff8827a7e/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll</HintPath>

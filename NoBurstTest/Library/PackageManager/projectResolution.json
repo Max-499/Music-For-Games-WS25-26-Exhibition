@@ -1,18 +1,18 @@
 {
   "context": {
-    "projectPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Packages",
+    "projectPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Packages",
     "unityVersion": "6000.0.59f2"
   },
   "inputs": [
-    "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Packages/manifest.json",
-    "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Packages/packages-lock.json",
+    "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Packages/manifest.json",
+    "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Packages/packages-lock.json",
     "/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.collab-proxy@2.10.2": {
       "name": "com.unity.collab-proxy",
       "displayName": "Unity Version Control",
-      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.collab-proxy@3351acaba9c9",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.collab-proxy@3351acaba9c9",
       "fingerprint": "3351acaba9c9f7fc41d4b2404fc11c55d01ab0ad",
       "editorCompatibility": "2021.3.0f1",
       "version": "2.10.2",
@@ -22,7 +22,7 @@
     "com.unity.feature.development@1.0.2": {
       "name": "com.unity.feature.development",
       "displayName": "Engineering",
-      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.feature.development@767aadbc6eb7",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.feature.development@767aadbc6eb7",
       "fingerprint": "767aadbc6eb72681a4ca807c8fa248e0230a0cef",
       "version": "1.0.2",
       "source": "builtin",
@@ -31,7 +31,7 @@
     "com.unity.inputsystem@1.14.2": {
       "name": "com.unity.inputsystem",
       "displayName": "Input System",
-      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5",
       "fingerprint": "be6c4fd0abf5b9b45f956b97294032a67f3c2f4d",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.14.2",
@@ -41,17 +41,27 @@
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
-      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.multiplayer.center@f5e57a8bed06",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.multiplayer.center@f5e57a8bed06",
       "fingerprint": "f5e57a8bed0637672c58142b1bfd7e6fea03746c",
       "editorCompatibility": "6000.0.0a1",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
     },
+    "com.unity.render-pipelines.universal@17.0.4": {
+      "name": "com.unity.render-pipelines.universal",
+      "displayName": "Universal Render Pipeline",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.render-pipelines.universal@fcc16084cbaf",
+      "fingerprint": "fcc16084cbaf3530c653fdc80af59c35016a3098",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.4",
+      "source": "builtin",
+      "testable": false
+    },
     "com.unity.timeline@1.8.9": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.timeline@6b9e48457ddb",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.timeline@6b9e48457ddb",
       "fingerprint": "6b9e48457ddb4f64813d77fd77efc79a8f3102ae",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.8.9",
@@ -61,7 +71,7 @@
     "com.unity.toolchain.linux-x86_64@2.0.11": {
       "name": "com.unity.toolchain.linux-x86_64",
       "displayName": "Toolchain Linux x64",
-      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.toolchain.linux-x86_64@53b88ff74b51",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.toolchain.linux-x86_64@53b88ff74b51",
       "fingerprint": "53b88ff74b51ed43afb11336ab6f5495d1f91478",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.11",
@@ -71,7 +81,7 @@
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
-      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ugui@6e70627056d3",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ugui@6e70627056d3",
       "fingerprint": "6e70627056d3f554418df18d17333c7f4ae7583b",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
@@ -81,7 +91,7 @@
     "com.unity.visualscripting@1.9.7": {
       "name": "com.unity.visualscripting",
       "displayName": "Visual Scripting",
-      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.visualscripting@6279e2b7c485",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.visualscripting@6279e2b7c485",
       "fingerprint": "6279e2b7c4858e56cca7f367cd38c49ef66778c9",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.9.7",
@@ -363,7 +373,7 @@
     "com.unity.sysroot@2.0.10": {
       "name": "com.unity.sysroot",
       "displayName": "Sysroot Base",
-      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.sysroot@7bbbb9339c14",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.sysroot@7bbbb9339c14",
       "fingerprint": "7bbbb9339c143f6fbccaeb0a52c77b9217b35a71",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.10",
@@ -373,17 +383,47 @@
     "com.unity.sysroot.linux-x86_64@2.0.9": {
       "name": "com.unity.sysroot.linux-x86_64",
       "displayName": "Sysroot Linux x64",
-      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.sysroot.linux-x86_64@1998d1c7730e",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.sysroot.linux-x86_64@1998d1c7730e",
       "fingerprint": "1998d1c7730e48fa49f28d983fececfc9cbd970b",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.9",
       "source": "registry",
       "testable": false
     },
+    "com.unity.render-pipelines.core@17.0.4": {
+      "name": "com.unity.render-pipelines.core",
+      "displayName": "Scriptable Render Pipeline Core",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.render-pipelines.core@c7a3112cb5d4",
+      "fingerprint": "c7a3112cb5d4f7900d4ffbfd3c9de6c1c39307ef",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.4",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.shadergraph@17.0.4": {
+      "name": "com.unity.shadergraph",
+      "displayName": "Shader Graph",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.shadergraph@9b8bfce3b2f6",
+      "fingerprint": "9b8bfce3b2f6a7fc62189980ad8b3ffc29ce6ea8",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.4",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.render-pipelines.universal-config@17.0.3": {
+      "name": "com.unity.render-pipelines.universal-config",
+      "displayName": "Universal Render Pipeline Config",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.render-pipelines.universal-config@e48fefd716b5",
+      "fingerprint": "e48fefd716b523a236766d20f1c6bf515aeb2ba2",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.3",
+      "source": "builtin",
+      "testable": false
+    },
     "com.unity.ide.visualstudio@2.0.23": {
       "name": "com.unity.ide.visualstudio",
       "displayName": "Visual Studio Editor",
-      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13",
       "fingerprint": "198cdf337d13c83ca953581515630d66b779e92b",
       "editorCompatibility": "2019.4.25f1",
       "version": "2.0.23",
@@ -393,7 +433,7 @@
     "com.unity.ide.rider@3.0.38": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ide.rider@1f60b3138684",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ide.rider@1f60b3138684",
       "fingerprint": "1f60b3138684c97af67aa8d911b1632ba916d29d",
       "editorCompatibility": "2021.3.0a1",
       "version": "3.0.38",
@@ -403,7 +443,7 @@
     "com.unity.editorcoroutines@1.0.0": {
       "name": "com.unity.editorcoroutines",
       "displayName": "Editor Coroutines",
-      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.editorcoroutines@7d48783e7b8c",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.editorcoroutines@7d48783e7b8c",
       "fingerprint": "7d48783e7b8cfcee5f8ef9ba787ed0d9dad4ebca",
       "editorCompatibility": "2018.1.0a1",
       "version": "1.0.0",
@@ -413,7 +453,7 @@
     "com.unity.performance.profile-analyzer@1.2.3": {
       "name": "com.unity.performance.profile-analyzer",
       "displayName": "Profile Analyzer",
-      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.performance.profile-analyzer@a68e7bc84997",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.performance.profile-analyzer@a68e7bc84997",
       "fingerprint": "a68e7bc849973d943853204178d08a2bc7656ffe",
       "editorCompatibility": "2020.3.0a1",
       "version": "1.2.3",
@@ -423,7 +463,7 @@
     "com.unity.test-framework@1.6.0": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.test-framework@5a94d5314a5a",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.test-framework@5a94d5314a5a",
       "fingerprint": "5a94d5314a5a389de500f1b1f27ea1a18cfbb200",
       "editorCompatibility": "6000.0.44f1",
       "version": "1.6.0",
@@ -433,17 +473,67 @@
     "com.unity.testtools.codecoverage@1.2.6": {
       "name": "com.unity.testtools.codecoverage",
       "displayName": "Code Coverage",
-      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.testtools.codecoverage@205a02cbcb39",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.testtools.codecoverage@205a02cbcb39",
       "fingerprint": "205a02cbcb39584f20b51c49b853047aceb3a3a7",
       "editorCompatibility": "2019.3.0a1",
       "version": "1.2.6",
       "source": "registry",
       "testable": false
     },
+    "com.unity.searcher@4.9.3": {
+      "name": "com.unity.searcher",
+      "displayName": "Searcher",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.searcher@1e17ce91558d",
+      "fingerprint": "1e17ce91558d1d9127554adc03d275f39a7466a2",
+      "editorCompatibility": "2019.1.0a1",
+      "version": "4.9.3",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.burst@1.8.25": {
+      "name": "com.unity.burst",
+      "displayName": "Burst",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.burst@1df634d836b8",
+      "fingerprint": "1df634d836b8106f13dc82401a91b336d615a874",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.8.25",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.mathematics@1.3.2": {
+      "name": "com.unity.mathematics",
+      "displayName": "Mathematics",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.mathematics@8017b507cc74",
+      "fingerprint": "8017b507cc74bf0a1dd14b18aa860569f807314d",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.3.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.collections@2.5.1": {
+      "name": "com.unity.collections",
+      "displayName": "Collections",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.collections@56bff8827a7e",
+      "fingerprint": "56bff8827a7ef6d44fcee4f36e558a74da89c1a0",
+      "editorCompatibility": "2022.3.11f1",
+      "version": "2.5.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.rendering.light-transport@1.0.1": {
+      "name": "com.unity.rendering.light-transport",
+      "displayName": "Unity Light Transport Library",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.rendering.light-transport@fd597d1a9e15",
+      "fingerprint": "fd597d1a9e151173ab55d89781dc98f19ab01a15",
+      "editorCompatibility": "2023.3.0b1",
+      "version": "1.0.1",
+      "source": "builtin",
+      "testable": false
+    },
     "com.unity.settings-manager@2.1.0": {
       "name": "com.unity.settings-manager",
       "displayName": "Settings Manager",
-      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.settings-manager@41738c275190",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.settings-manager@41738c275190",
       "fingerprint": "41738c27519039c335849eb78949382f4d7a3544",
       "editorCompatibility": "2022.3.0a1",
       "version": "2.1.0",
@@ -453,11 +543,31 @@
     "com.unity.ext.nunit@2.0.5": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
-      "resolvedPath": "/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ext.nunit@b16e6d09cd93",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ext.nunit@b16e6d09cd93",
       "fingerprint": "b16e6d09cd93f527249a1f05a86ef45695dc934b",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.5",
       "source": "builtin",
+      "testable": false
+    },
+    "com.unity.nuget.mono-cecil@1.11.4": {
+      "name": "com.unity.nuget.mono-cecil",
+      "displayName": "Mono Cecil",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f",
+      "fingerprint": "d6f9955a5d5f84d45442ff1ad0fb694cc6e2fd62",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "1.11.4",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.test-framework.performance@3.2.0": {
+      "name": "com.unity.test-framework.performance",
+      "displayName": "Performance testing API",
+      "resolvedPath": "/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.test-framework.performance@0840f58e4562",
+      "fingerprint": "0840f58e45624f7677679a0f8b6a5137689e607f",
+      "editorCompatibility": "2020.3.0a1",
+      "version": "3.2.0",
+      "source": "registry",
       "testable": false
     }
   }

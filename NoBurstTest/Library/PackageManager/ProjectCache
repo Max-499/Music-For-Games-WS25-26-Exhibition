@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Packages/manifest.json
+    m_FilePath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638997079420000000
-    m_Hash: 3838151808
+      ticks: 639042965430000000
+    m_Hash: 3163093952
   m_LockFileStatus:
-    m_FilePath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Packages/packages-lock.json
+    m_FilePath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638997079420000000
-    m_Hash: 3255729549
+      ticks: 639042965430000000
+    m_Hash: 3969661976
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Packages
+m_ProjectPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Packages
 m_EditorVersion: 6000.0.59f2 (ef281c76c3c1)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.10.2
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.10.2
   source: 1
-  resolvedPath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.collab-proxy@3351acaba9c9
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.collab-proxy@3351acaba9c9
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -128,11 +128,13 @@ m_ResolvedPackages:
     - 2.10.0
     - 2.10.1
     - 2.10.2
+    - 2.11.2
     compatible:
     - 2.9.3
     - 2.10.0
     - 2.10.1
     - 2.10.2
+    - 2.11.2
     recommended: 2.9.3
     deprecated: []
   dependencies: []
@@ -210,7 +212,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.feature.development@767aadbc6eb7
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.feature.development@767aadbc6eb7
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -320,7 +322,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.14.2
   source: 1
-  resolvedPath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -394,10 +396,14 @@ m_ResolvedPackages:
     - 1.14.2
     - 1.15.0
     - 1.16.0
+    - 1.17.0
+    - 1.18.0
     compatible:
     - 1.14.2
     - 1.15.0
     - 1.16.0
+    - 1.17.0
+    - 1.18.0
     recommended: 1.14.2
     deprecated: []
   dependencies:
@@ -479,7 +485,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.multiplayer.center@f5e57a8bed06
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.multiplayer.center@f5e57a8bed06
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -567,12 +573,138 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
+- packageId: com.unity.render-pipelines.universal@17.0.4
+  testable: 0
+  isDirectDependency: 1
+  version: 17.0.4
+  source: 2
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.render-pipelines.universal@fcc16084cbaf
+  assetPath: Packages/com.unity.render-pipelines.universal
+  name: com.unity.render-pipelines.universal
+  displayName: Universal Render Pipeline
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The Universal Render Pipeline (URP) is a prebuilt Scriptable Render
+    Pipeline, made by Unity. URP provides artist-friendly workflows that let you
+    quickly and easily create optimized graphics across a range of platforms, from
+    mobile to high-end consoles and PCs.
+  errors: []
+  versions:
+    all:
+    - 17.0.4
+    compatible:
+    - 17.0.4
+    recommended: 17.0.4
+    deprecated: []
+  dependencies:
+  - name: com.unity.render-pipelines.core
+    version: 17.0.4
+  - name: com.unity.shadergraph
+    version: 17.0.4
+  - name: com.unity.render-pipelines.universal-config
+    version: 17.0.3
+  resolvedDependencies:
+  - name: com.unity.render-pipelines.core
+    version: 17.0.4
+  - name: com.unity.burst
+    version: 1.8.25
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.5.1
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.rendering.light-transport
+    version: 1.0.1
+  - name: com.unity.shadergraph
+    version: 17.0.4
+  - name: com.unity.searcher
+    version: 4.9.3
+  - name: com.unity.render-pipelines.universal-config
+    version: 17.0.3
+  keywords:
+  - graphics
+  - performance
+  - rendering
+  - mobile
+  - render
+  - pipeline
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 17.0.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: fcc16084cbaf3530c653fdc80af59c35016a3098
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 17.0.4
+    minimumUnityVersion: 6000.0.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.timeline@1.8.9
   testable: 0
   isDirectDependency: 1
   version: 1.8.9
   source: 1
-  resolvedPath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.timeline@6b9e48457ddb
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.timeline@6b9e48457ddb
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -676,9 +808,11 @@ m_ResolvedPackages:
     - 1.8.7
     - 1.8.8
     - 1.8.9
+    - 1.8.10
     compatible:
     - 1.8.9
-    recommended: 1.8.9
+    - 1.8.10
+    recommended: 1.8.10
     deprecated: []
   dependencies:
   - name: com.unity.modules.audio
@@ -769,7 +903,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.11
   source: 1
-  resolvedPath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.toolchain.linux-x86_64@53b88ff74b51
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.toolchain.linux-x86_64@53b88ff74b51
   assetPath: Packages/com.unity.toolchain.linux-x86_64
   name: com.unity.toolchain.linux-x86_64
   displayName: Toolchain Linux x64
@@ -879,7 +1013,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ugui@6e70627056d3
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ugui@6e70627056d3
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -974,7 +1108,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.7
   source: 1
-  resolvedPath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.visualscripting@6279e2b7c485
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.visualscripting@6279e2b7c485
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -3835,7 +3969,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.10
   source: 1
-  resolvedPath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.sysroot@7bbbb9339c14
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.sysroot@7bbbb9339c14
   assetPath: Packages/com.unity.sysroot
   name: com.unity.sysroot
   displayName: Sysroot Base
@@ -3936,7 +4070,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.9
   source: 1
-  resolvedPath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.sysroot.linux-x86_64@1998d1c7730e
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.sysroot.linux-x86_64@1998d1c7730e
   assetPath: Packages/com.unity.sysroot.linux-x86_64
   name: com.unity.sysroot.linux-x86_64
   displayName: Sysroot Linux x64
@@ -4033,12 +4167,359 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
+- packageId: com.unity.render-pipelines.core@17.0.4
+  testable: 0
+  isDirectDependency: 0
+  version: 17.0.4
+  source: 2
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.render-pipelines.core@c7a3112cb5d4
+  assetPath: Packages/com.unity.render-pipelines.core
+  name: com.unity.render-pipelines.core
+  displayName: Scriptable Render Pipeline Core
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: SRP Core makes it easier to create or customize a Scriptable Render
+    Pipeline (SRP). SRP Core contains reusable code, including boilerplate code for
+    working with platform-specific graphics APIs, utility functions for common rendering
+    operations, and  shader libraries. The code in SRP Core is use by the High Definition
+    Render Pipeline (HDRP) and Universal Render Pipeline (URP). If you are creating
+    a custom SRP from scratch or customizing a prebuilt SRP, using SRP Core will
+    save you time.
+  errors: []
+  versions:
+    all:
+    - 17.0.4
+    compatible:
+    - 17.0.4
+    recommended: 17.0.4
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.8.20
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.collections
+    version: 2.4.3
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.rendering.light-transport
+    version: 1.0.1
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.8.25
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.5.1
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.rendering.light-transport
+    version: 1.0.1
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 17.0.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: c7a3112cb5d4f7900d4ffbfd3c9de6c1c39307ef
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 17.0.4
+    minimumUnityVersion: 6000.0.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.shadergraph@17.0.4
+  testable: 0
+  isDirectDependency: 0
+  version: 17.0.4
+  source: 2
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.shadergraph@9b8bfce3b2f6
+  assetPath: Packages/com.unity.shadergraph
+  name: com.unity.shadergraph
+  displayName: Shader Graph
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The Shader Graph package adds a visual Shader editing tool to Unity.
+    You can use this tool to create Shaders in a visual way instead of writing code.
+    Specific render pipelines can implement specific graph features. Currently, both
+    the High Definition Rendering Pipeline and the Universal Rendering Pipeline support
+    Shader Graph.
+  errors: []
+  versions:
+    all:
+    - 17.0.4
+    compatible:
+    - 17.0.4
+    recommended: 17.0.4
+    deprecated: []
+  dependencies:
+  - name: com.unity.render-pipelines.core
+    version: 17.0.4
+  - name: com.unity.searcher
+    version: 4.9.3
+  resolvedDependencies:
+  - name: com.unity.render-pipelines.core
+    version: 17.0.4
+  - name: com.unity.burst
+    version: 1.8.25
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.5.1
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.rendering.light-transport
+    version: 1.0.1
+  - name: com.unity.searcher
+    version: 4.9.3
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 17.0.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 9b8bfce3b2f6a7fc62189980ad8b3ffc29ce6ea8
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 17.0.4
+    minimumUnityVersion: 6000.0.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.render-pipelines.universal-config@17.0.3
+  testable: 0
+  isDirectDependency: 0
+  version: 17.0.3
+  source: 2
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.render-pipelines.universal-config@e48fefd716b5
+  assetPath: Packages/com.unity.render-pipelines.universal-config
+  name: com.unity.render-pipelines.universal-config
+  displayName: Universal Render Pipeline Config
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Configuration files for the Universal Render Pipeline.
+  errors: []
+  versions:
+    all:
+    - 17.0.3
+    compatible:
+    - 17.0.3
+    recommended: 17.0.3
+    deprecated: []
+  dependencies:
+  - name: com.unity.render-pipelines.core
+    version: 17.0.3
+  resolvedDependencies:
+  - name: com.unity.render-pipelines.core
+    version: 17.0.4
+  - name: com.unity.burst
+    version: 1.8.25
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.5.1
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.rendering.light-transport
+    version: 1.0.1
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 17.0.3
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: e48fefd716b523a236766d20f1c6bf515aeb2ba2
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 17.0.3
+    minimumUnityVersion: 6000.0.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.ide.visualstudio@2.0.23
   testable: 0
   isDirectDependency: 0
   version: 2.0.23
   source: 1
-  resolvedPath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -4080,10 +4561,12 @@ m_ResolvedPackages:
     - 2.0.22
     - 2.0.23
     - 2.0.25
+    - 2.0.26
     compatible:
     - 2.0.23
     - 2.0.25
-    recommended: 2.0.25
+    - 2.0.26
+    recommended: 2.0.26
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -4155,7 +4638,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.38
   source: 1
-  resolvedPath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ide.rider@1f60b3138684
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ide.rider@1f60b3138684
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -4285,7 +4768,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.editorcoroutines@7d48783e7b8c
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.editorcoroutines@7d48783e7b8c
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -4373,7 +4856,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.3
   source: 1
-  resolvedPath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.performance.profile-analyzer@a68e7bc84997
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.performance.profile-analyzer@a68e7bc84997
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -4469,7 +4952,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.6.0
   source: 2
-  resolvedPath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.test-framework@5a94d5314a5a
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.test-framework@5a94d5314a5a
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -4558,7 +5041,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.testtools.codecoverage@205a02cbcb39
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.testtools.codecoverage@205a02cbcb39
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4687,12 +5170,746 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
+- packageId: com.unity.searcher@4.9.3
+  testable: 0
+  isDirectDependency: 0
+  version: 4.9.3
+  source: 1
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.searcher@1e17ce91558d
+  assetPath: Packages/com.unity.searcher
+  name: com.unity.searcher
+  displayName: Searcher
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: General search window for use in the Editor. First target use is for
+    GraphView node search.
+  errors: []
+  versions:
+    all:
+    - 4.0.0-preview
+    - 4.0.0
+    - 4.0.7-preview
+    - 4.0.7
+    - 4.0.8-preview
+    - 4.0.9
+    - 4.1.0-preview
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 4.3.2
+    - 4.6.0-preview
+    - 4.7.0-preview
+    - 4.9.1
+    - 4.9.2
+    - 4.9.3
+    - 4.9.4
+    compatible:
+    - 4.9.2
+    - 4.9.3
+    - 4.9.4
+    recommended: 4.9.4
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - search
+  - searcher
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638731478077990000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.searcher@4.9/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
+    revision: 6fad693b6604ae7175b59ebb4990d9a0b6c1d012
+    path: 
+  unityLifecycle:
+    version: 4.9.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"- Fixed a bug where spaces are removed when highlighted.\n-
+    Changed VisualSplitter to twoPaneSplitView and updated indentation"}'
+  assetStore:
+    productId: 
+  fingerprint: 1e17ce91558d1d9127554adc03d275f39a7466a2
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 4.9.2
+    minimumUnityVersion: 2019.1.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.burst@1.8.25
+  testable: 0
+  isDirectDependency: 0
+  version: 1.8.25
+  source: 1
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.burst@1df634d836b8
+  assetPath: Packages/com.unity.burst
+  name: com.unity.burst
+  displayName: Burst
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Burst is a compiler that translates from IL/.NET bytecode to highly
+    optimized native code using LLVM.
+  errors: []
+  versions:
+    all:
+    - 0.2.4-preview.5
+    - 0.2.4-preview.7
+    - 0.2.4-preview.11
+    - 0.2.4-preview.12
+    - 0.2.4-preview.13
+    - 0.2.4-preview.14
+    - 0.2.4-preview.15
+    - 0.2.4-preview.16
+    - 0.2.4-preview.17
+    - 0.2.4-preview.18
+    - 0.2.4-preview.19
+    - 0.2.4-preview.20
+    - 0.2.4-preview.21
+    - 0.2.4-preview.22
+    - 0.2.4-preview.23
+    - 0.2.4-preview.24
+    - 0.2.4-preview.25
+    - 0.2.4-preview.30
+    - 0.2.4-preview.31
+    - 0.2.4-preview.33
+    - 0.2.4-preview.34
+    - 0.2.4-preview.37
+    - 0.2.4-preview.41
+    - 0.2.4-preview.45
+    - 0.2.4-preview.48
+    - 0.2.4-preview.50
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.0-preview.4
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3-preview.3
+    - 1.2.0-preview.1
+    - 1.2.0-preview.5
+    - 1.2.0-preview.6
+    - 1.2.0-preview.8
+    - 1.2.0-preview.9
+    - 1.2.0-preview.10
+    - 1.2.0-preview.11
+    - 1.2.0-preview.12
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.3.0-preview.1
+    - 1.3.0-preview.2
+    - 1.3.0-preview.3
+    - 1.3.0-preview.4
+    - 1.3.0-preview.5
+    - 1.3.0-preview.6
+    - 1.3.0-preview.7
+    - 1.3.0-preview.8
+    - 1.3.0-preview.9
+    - 1.3.0-preview.10
+    - 1.3.0-preview.11
+    - 1.3.0-preview.12
+    - 1.3.0-preview.13
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.0-pre.1
+    - 1.4.0-preview.1
+    - 1.4.0-preview.2
+    - 1.4.0-preview.3
+    - 1.4.0-preview.4
+    - 1.4.0-preview.5
+    - 1.4.1-pre.1
+    - 1.4.1-pre.2
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4-preview.1
+    - 1.4.4-preview.2
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
+    - 1.4.7
+    - 1.4.8
+    - 1.4.9
+    - 1.4.11
+    - 1.5.0-pre.3
+    - 1.5.0-pre.4
+    - 1.5.0-pre.5
+    - 1.5.0
+    - 1.5.1
+    - 1.5.2
+    - 1.5.3
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6-preview.1
+    - 1.5.6
+    - 1.6.0-pre.2
+    - 1.6.0-pre.3
+    - 1.6.0-pre.4
+    - 1.6.0
+    - 1.6.1
+    - 1.6.2
+    - 1.6.3
+    - 1.6.4
+    - 1.6.5
+    - 1.6.6
+    - 1.7.0-pre.1
+    - 1.7.0
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.4
+    - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.3
+    - 1.8.4
+    - 1.8.7
+    - 1.8.8
+    - 1.8.9
+    - 1.8.10
+    - 1.8.11
+    - 1.8.12
+    - 1.8.13
+    - 1.8.14
+    - 1.8.15
+    - 1.8.16
+    - 1.8.17
+    - 1.8.18
+    - 1.8.19
+    - 1.8.20
+    - 1.8.21
+    - 1.8.22
+    - 1.8.23
+    - 1.8.24
+    - 1.8.25
+    - 1.8.26
+    - 1.8.27
+    compatible:
+    - 1.8.25
+    - 1.8.26
+    - 1.8.27
+    recommended: 1.8.27
+    deprecated: []
+  dependencies:
+  - name: com.unity.mathematics
+    version: 1.2.1
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638936354350140000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/burst.git
+    revision: 05afff266a602147349dc3706f2c09210e05ec2f
+    path: 
+  unityLifecycle:
+    version: 1.8.25
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Fixed infinite loop and unbounded memory
+    consumption when having a (possibly indirectly) recursive method with the `[MethodImpl(MethodImplOptions.AggressiveInlining)]`
+    attribute\n- Fixes an issue where `math.min` and `math.max` would do signed comparisons
+    on unsigned integers when compiling with `FloatMode.Fast`.\n- Fixed a crash on
+    some Android devices what would be triggered when \"Enable ARMv9 Security Features\"
+    was enabled.\n- Fixed a rare crash that could happen when the Burst package was
+    unloaded.\n- Fixed relocation error when stack protection was enabled on 32-bit
+    Android.\n\n### Added\n- Added LLVM 20 support\n- Added guards to UWP ARM32 to
+    be available only for versions lower than 6.3 [PLAT-15016](https://jira.unity3d.com/browse/PLAT-15016)\n-
+    `FloatMode.Deterministic` is now supported by Burst. Please refer to the documentation
+    for details."}'
+  assetStore:
+    productId: 
+  fingerprint: 1df634d836b8106f13dc82401a91b336d615a874
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.8.25
+    minimumUnityVersion: 2021.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.mathematics@1.3.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.3.2
+  source: 1
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.mathematics@8017b507cc74
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Unity's C# SIMD math library providing vector types and math functions
+    with a shader like syntax.
+  errors: []
+  versions:
+    all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    compatible:
+    - 1.3.2
+    - 1.3.3
+    recommended: 1.3.3
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638409134840000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+    revision: 1695a8503482a3131be78cc26308a93f82c05b04
+    path: 
+  unityLifecycle:
+    version: 1.3.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n* Fixed `math.hash` crash when using IL2CPP
+    builds on Arm 32 bit devices.\n* Fixed obsolete method usage warnings for `MatrixDrawer.CanCacheInspectorGUI`
+    and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
+    Updated minimum editor version to 2021.3"}'
+  assetStore:
+    productId: 
+  fingerprint: 8017b507cc74bf0a1dd14b18aa860569f807314d
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.3.2
+    minimumUnityVersion: 2021.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.collections@2.5.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.5.1
+  source: 1
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.collections@56bff8827a7e
+  assetPath: Packages/com.unity.collections
+  name: com.unity.collections
+  displayName: Collections
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A C# collections library providing data structures that can be used
+    in jobs, and optimized by Burst compiler.
+  errors: []
+  versions:
+    all:
+    - 0.0.9-preview.1
+    - 0.0.9-preview.2
+    - 0.0.9-preview.3
+    - 0.0.9-preview.4
+    - 0.0.9-preview.5
+    - 0.0.9-preview.6
+    - 0.0.9-preview.7
+    - 0.0.9-preview.8
+    - 0.0.9-preview.9
+    - 0.0.9-preview.10
+    - 0.0.9-preview.11
+    - 0.0.9-preview.12
+    - 0.0.9-preview.13
+    - 0.0.9-preview.14
+    - 0.0.9-preview.15
+    - 0.0.9-preview.16
+    - 0.0.9-preview.17
+    - 0.0.9-preview.18
+    - 0.0.9-preview.19
+    - 0.0.9-preview.20
+    - 0.1.0-preview
+    - 0.1.1-preview
+    - 0.2.0-preview.13
+    - 0.3.0-preview.0
+    - 0.4.0-preview.6
+    - 0.5.0-preview.9
+    - 0.5.1-preview.11
+    - 0.5.2-preview.8
+    - 0.6.0-preview.9
+    - 0.7.0-preview.2
+    - 0.7.1-preview.3
+    - 0.8.0-preview.5
+    - 0.9.0-preview.5
+    - 0.9.0-preview.6
+    - 0.11.0-preview.17
+    - 0.12.0-preview.13
+    - 0.14.0-preview.16
+    - 0.15.0-preview.21
+    - 0.17.0-preview.18
+    - 1.0.0-pre.3
+    - 1.0.0-pre.5
+    - 1.0.0-pre.6
+    - 1.1.0
+    - 1.2.3-pre.1
+    - 1.2.3
+    - 1.2.4
+    - 1.3.1
+    - 1.4.0
+    - 1.5.1
+    - 1.5.2
+    - 2.1.0-exp.4
+    - 2.1.0-pre.2
+    - 2.1.0-pre.6
+    - 2.1.0-pre.11
+    - 2.1.0-pre.18
+    - 2.1.1
+    - 2.1.4
+    - 2.2.0
+    - 2.2.1
+    - 2.3.0-exp.1
+    - 2.3.0-pre.3
+    - 2.4.0-exp.2
+    - 2.4.0-pre.2
+    - 2.4.0-pre.5
+    - 2.4.0
+    - 2.4.1
+    - 2.4.2
+    - 2.4.3
+    - 2.5.0-exp.1
+    - 2.5.0-pre.2
+    - 2.5.1
+    - 2.5.2
+    - 2.5.3
+    - 2.5.7
+    - 2.6.0-exp.2
+    - 2.6.0-pre.3
+    - 2.6.0-pre.4
+    - 2.6.2
+    - 2.6.3
+    - 2.6.4
+    compatible:
+    - 2.5.1
+    - 2.5.2
+    - 2.5.3
+    - 2.5.7
+    - 2.6.0-exp.2
+    - 2.6.0-pre.3
+    - 2.6.0-pre.4
+    - 2.6.2
+    - 2.6.3
+    - 2.6.4
+    recommended: 2.5.7
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.8.17
+  - name: com.unity.test-framework
+    version: 1.4.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.0.3
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.8.25
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
+  keywords:
+  - dots
+  - collections
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638621282722800000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collections@2.5/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/dots.git
+    revision: 5b0dea6b455f5df005c19fa984ddfa237d6cd707
+    path: 
+  unityLifecycle:
+    version: 2.5.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n* Updated Burst dependency to version
+    1.8.17\n* Updated Unity Test Framework dependency to version 1.4.5\n* Updated
+    entities packages dependencies\n\n### Fixed\n* Certain cases would cause an ILPostProcessor
+    to fail, blocking compilation, but no more."}'
+  assetStore:
+    productId: 
+  fingerprint: 56bff8827a7ef6d44fcee4f36e558a74da89c1a0
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.5.1
+    minimumUnityVersion: 2022.3.11f1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.rendering.light-transport@1.0.1
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.1
+  source: 2
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.rendering.light-transport@fd597d1a9e15
+  assetPath: Packages/com.unity.rendering.light-transport
+  name: com.unity.rendering.light-transport
+  displayName: Unity Light Transport Library
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Unity Light Transport Library exposes reusable code for writing light
+    transport algorithms such as raytracing or pathtracing
+  errors: []
+  versions:
+    all:
+    - 1.0.1
+    compatible:
+    - 1.0.1
+    recommended: 1.0.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.collections
+    version: 2.2.0
+  - name: com.unity.mathematics
+    version: 1.2.4
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.collections
+    version: 2.5.1
+  - name: com.unity.burst
+    version: 1.8.25
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  keywords:
+  - raytracing
+  - pathtracing
+  - monte-carlo
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: fd597d1a9e151173ab55d89781dc98f19ab01a15
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.1
+    minimumUnityVersion: 2023.3.0b1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.settings-manager@2.1.0
   testable: 0
   isDirectDependency: 0
   version: 2.1.0
   source: 1
-  resolvedPath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.settings-manager@41738c275190
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.settings-manager@41738c275190
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4780,7 +5997,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: /home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ext.nunit@b16e6d09cd93
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ext.nunit@b16e6d09cd93
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4848,6 +6065,241 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.5
     minimumUnityVersion: 2019.4.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.nuget.mono-cecil@1.11.4
+  testable: 0
+  isDirectDependency: 0
+  version: 1.11.4
+  source: 1
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f
+  assetPath: Packages/com.unity.nuget.mono-cecil
+  name: com.unity.nuget.mono-cecil
+  displayName: Mono Cecil
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: library
+  description: 'The mono cecil library from https://www.nuget.org/packages/Mono.Cecil/
+
+
+    This
+    package is intended for internal Unity use only. Most Unity users will be better
+    suite using the existing community tooling.
+
+    To avoid assembly clashes, please
+    use this package if you intend to use Mono.Cecil.'
+  errors: []
+  versions:
+    all:
+    - 0.1.6-preview.2
+    - 1.0.0-preview.1
+    - 1.10.0-preview.1
+    - 1.10.1-preview.1
+    - 1.10.1
+    - 1.10.2
+    - 1.11.4
+    - 1.11.5
+    - 1.11.6
+    compatible:
+    - 1.11.4
+    - 1.11.5
+    - 1.11.6
+    recommended: 1.11.6
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637852971930000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.mono-cecil.git
+    revision: d0133ce672d724694b56bfd20672acf6f8737fec
+    path: 
+  unityLifecycle:
+    version: 1.11.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: d6f9955a5d5f84d45442ff1ad0fb694cc6e2fd62
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.11.4
+    minimumUnityVersion: 2018.4.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.test-framework.performance@3.2.0
+  testable: 0
+  isDirectDependency: 0
+  version: 3.2.0
+  source: 1
+  resolvedPath: /home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.test-framework.performance@0840f58e4562
+  assetPath: Packages/com.unity.test-framework.performance
+  name: com.unity.test-framework.performance
+  displayName: Performance testing API
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Package that extends Unity Test Framework package. Adds performance
+    testing capabilities and collects configuration metadata.
+  errors: []
+  versions:
+    all:
+    - 0.1.27-preview
+    - 0.1.29-preview
+    - 0.1.31-preview
+    - 0.1.33-preview
+    - 0.1.34-preview
+    - 0.1.36-preview
+    - 0.1.37-preview
+    - 0.1.39-preview
+    - 0.1.40-preview
+    - 0.1.41-preview
+    - 0.1.42-preview
+    - 0.1.44-preview
+    - 0.1.45-preview
+    - 0.1.47-preview
+    - 0.1.48-preview
+    - 0.1.49-preview
+    - 0.1.50-preview
+    - 1.0.4-preview
+    - 1.0.6-preview
+    - 1.0.9-preview
+    - 1.1.2-preview
+    - 1.2.0-preview
+    - 1.2.1-preview
+    - 1.2.3-preview
+    - 1.2.5-preview
+    - 1.2.6-preview
+    - 1.3.0-preview
+    - 1.3.1-preview
+    - 1.3.2-preview
+    - 1.3.3-preview
+    - 2.0.1-preview
+    - 2.0.2-preview
+    - 2.0.3-preview
+    - 2.0.6-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 2.0.9-preview
+    - 2.1.0-preview
+    - 2.2.0-preview
+    - 2.3.1-preview
+    - 2.4.1-preview
+    - 2.5.1-preview
+    - 2.6.0-preview
+    - 2.7.0-preview
+    - 2.8.0-preview
+    - 2.8.1-preview
+    - 3.0.0-pre.1
+    - 3.0.0-pre.2
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.1.0
+    - 3.2.0
+    compatible:
+    - 3.2.0
+    recommended: 3.2.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.test-framework
+    version: 1.1.33
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - performance
+  - test
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638936561440790000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.test-framework.performance.git
+    revision: fe7ade132131103e7608be564921ab8de35fd8e4
+    path: 
+  unityLifecycle:
+    version: 3.2.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n\n- Improved render threading mode reporting"}'
+  assetStore:
+    productId: 
+  fingerprint: 0840f58e45624f7677679a0f8b6a5137689e607f
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 3.2.0
+    minimumUnityVersion: 2020.3.0a1
   compliance:
     status: 0
     violation:

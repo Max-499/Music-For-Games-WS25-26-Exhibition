@@ -416,34 +416,40 @@
       <HintPath>/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-      <HintPath>/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
+      <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ext.nunit@b16e6d09cd93/net40/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.ext.nunit@b16e6d09cd93/net40/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-      <HintPath>/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.testtools.codecoverage@205a02cbcb39/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
+      <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.testtools.codecoverage@205a02cbcb39/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-      <HintPath>/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Lib/Editor/log4netPlastic.dll</HintPath>
+      <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Lib/Editor/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+      <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-      <HintPath>/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Lib/Editor/unityplastic.dll</HintPath>
+      <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.collab-proxy@3351acaba9c9/Lib/Editor/unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
+      <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/PackageCache/com.unity.collections@56bff8827a7e/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll</HintPath>
@@ -821,16 +827,16 @@
       <HintPath>/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>/home/hannes/Documents/Unity/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>/home/hannes/Documents/HfM Karlsruhe/Music for Games II/Music-For-Games-WS25-26-Exhibition/NoBurstTest/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -19,6 +19,8 @@ public class DoorController : MonoBehaviour
     [Header("Artistic Chaos Settings")]
     public string fmodParameterName = "Progress";
     public string lowNoteParameterName = "LowNoteRandom";
+    public string midLowNoteParameterName = "MidLowNoteRandom";
+    public string midNoteParameterName = "MidNoteRandom";
     public string glitchSmoothParameter = "GlitchSmooth";
     [Range(0, 1)] public float glitchThreshold = 0.7f; 
     [Range(0, 1)] public float impossibleThreshold = 0.98f;
@@ -135,9 +137,13 @@ public class DoorController : MonoBehaviour
         
         // ROLL FOR NEW LOW NOTE
         int randomLowNote = Random.Range(0, 3); // Results in 0, 1, or 2
+        int randomMidLowNote = Random.Range(0, 3);
+        int randomMidNote = Random.Range(0, 3);
         fmodEmitter.SetParameter(lowNoteParameterName, (float)randomLowNote);
+        fmodEmitter.SetParameter(midLowNoteParameterName, (float)randomMidLowNote);
+        fmodEmitter.SetParameter(midNoteParameterName, (float)randomMidNote);
     
-        Debug.Log($"<color=orange>FMOD:</color> LowNoteRandom set to {randomLowNote}");
+        Debug.Log($"<color=orange>FMOD:</color> LowNoteRandom set to {randomLowNote}\n MidLowNoteRandom set to {randomMidLowNote}\n MidNoteRandom set to {randomMidNote}");
     }
 
     IEnumerator GlitchSequence()

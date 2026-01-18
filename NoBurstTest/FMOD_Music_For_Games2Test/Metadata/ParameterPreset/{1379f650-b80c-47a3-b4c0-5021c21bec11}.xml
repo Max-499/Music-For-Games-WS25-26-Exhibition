@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{1379f650-b80c-47a3-b4c0-5021c21bec11}">
+		<property name="name">
+			<value>MidLowNoteRandom</value>
+		</property>
+		<relationship name="folder">
+			<destination>{890e6bf1-c1bb-44b5-b8b9-e6dcbd56645f}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{cf83ae7e-3976-4a9b-a0b1-fc5b74826ebe}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{cf83ae7e-3976-4a9b-a0b1-fc5b74826ebe}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -158,7 +158,7 @@ public class DoorController : MonoBehaviour
         StartCoroutine(SmoothFMODParameter(glitchSmoothParameter, 1f, 0.2f));
         yield return new WaitForSeconds(1.2f); // The 2-second "Frozen" suspense
     
-        int jumpCount = Random.Range(8, 16);
+        int jumpCount = Random.Range(7, 10);
         long minD = (long)(videoPlayer.frameCount * 0.15f);
         long curF = (long)(videoPlayer.frameCount * 0.8 / jumpCount);
     
@@ -231,7 +231,7 @@ public class DoorController : MonoBehaviour
             // 5. Short Burst Duration
             yield return new WaitForSeconds(0.03f); 
             SetRumble(0, 0); // Kill rumble so it's a "clunk" not a "buzz"
-            yield return new WaitForSeconds(Random.Range(0.01f, 0.025f)); 
+            yield return new WaitForSeconds(Random.Range(0.05f, 0.2f)); 
         }
     
         // --- RESET SEQUENCE ---

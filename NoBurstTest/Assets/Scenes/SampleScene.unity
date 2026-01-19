@@ -154,12 +154,14 @@ MonoBehaviour:
   videoRawImage: {fileID: 39337348}
   fmodParameterName: Progress
   lowNoteParameterName: LowNoteRandom
+  midLowNoteParameterName: MidLowNoteRandom
+  midNoteParameterName: MidNoteRandom
   glitchSmoothParameter: GlitchSmooth
   glitchThreshold: 0.752
   impossibleThreshold: 0.98
   maxSaturation: 1.53
   maxBrightness: 1.2
-  hueShiftRange: 0.5
+  hueShiftRange: 0.143
   jitterAmount: 0
 --- !u!114 &39337348 stripped
 MonoBehaviour:
@@ -449,11 +451,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5270037448986235132, guid: 7f90c177a62434b8ab0ae21960dd63ca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5270037448986235132, guid: 7f90c177a62434b8ab0ae21960dd63ca, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12
+      value: -13.6
       objectReference: {fileID: 0}
     - target: {fileID: 5270037448986235132, guid: 7f90c177a62434b8ab0ae21960dd63ca, type: 3}
       propertyPath: m_LocalRotation.w
@@ -591,7 +593,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -158.8, y: -144.6}
+  m_AnchoredPosition: {x: -173.2, y: 165.6}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1218775389
@@ -679,7 +681,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -41.497726, y: 0, z: -52.633003, w: 32.430927}
+  m_margin: {x: -50.15264, y: 0, z: -52.633003, w: 32.430927}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -765,7 +767,11 @@ PrefabInstance:
     - target: {fileID: 1791495307368494204, guid: e3e7bcf38e1a549a681feaf0ecc75ced, type: 3}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: f702d37361bc868a7870da9bfacc3a43, type: 3}
+      objectReference: {fileID: 32900000, guid: 790006e5bd2e94976b6acf87a1fc56be, type: 3}
+    - target: {fileID: 1791495307368494204, guid: e3e7bcf38e1a549a681feaf0ecc75ced, type: 3}
+      propertyPath: m_AspectRatio
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1791495307368494204, guid: e3e7bcf38e1a549a681feaf0ecc75ced, type: 3}
       propertyPath: m_PlaybackSpeed
       value: 1
@@ -820,11 +826,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3445259430385224163, guid: e3e7bcf38e1a549a681feaf0ecc75ced, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 734
+      value: 700
       objectReference: {fileID: 0}
     - target: {fileID: 3445259430385224163, guid: e3e7bcf38e1a549a681feaf0ecc75ced, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 406.5
+      value: 394
       objectReference: {fileID: 0}
     - target: {fileID: 3445259430385224163, guid: e3e7bcf38e1a549a681feaf0ecc75ced, type: 3}
       propertyPath: m_LocalPosition.x

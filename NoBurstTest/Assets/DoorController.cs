@@ -93,7 +93,7 @@ public class DoorController : MonoBehaviour
         SetRumble(currentRumbleValue, currentRumbleValue * 0.5f);
 
         // --- VIDEO PLAYBACK CONTROL ---
-        if (isPressed && (ulong)videoPlayer.frame < videoPlayer.frameCount - 5)
+        if (isPressed && (ulong)videoPlayer.frame < videoPlayer.frameCount - 10)
         {
             if (!videoPlayer.isPlaying) videoPlayer.Play();
         }
@@ -159,8 +159,9 @@ public class DoorController : MonoBehaviour
         yield return new WaitForSeconds(1.2f); // The 2-second "Frozen" suspense
     
         int jumpCount = Random.Range(7, 10);
-        long minD = (long)(videoPlayer.frameCount * 0.15f);
-        long curF = (long)(videoPlayer.frameCount * 0.8 / jumpCount);
+        long minD = (long)(videoPlayer.frameCount * 0.05f);
+        //long curF = (long)(videoPlayer.frameCount * 0.8 / jumpCount);
+        long curF = (long)(videoPlayer.frameCount * 0.45 / jumpCount);
     
         for (int i = 0; i < jumpCount; i++)
         {
@@ -172,14 +173,24 @@ public class DoorController : MonoBehaviour
             long rFrame;
             int safety = 0;
             do {
+                // CLAMP: Never allow the glitch to target the last 10 frames of the video
+                long maxSafeFrame = (long)videoPlayer.frameCount - 10;
                 rFrame = (long)Random.Range((jumpCount - i) * curF + minD, (jumpCount - i) * curF + curF + minD);
+                rFrame = (long)Mathf.Clamp(rFrame, 0, maxSafeFrame); 
+    
                 safety++;
             } while (Mathf.Abs(rFrame - lastGlitchFrame) < minD && safety < 10);
-    
+
             lastGlitchFrame = rFrame;
             videoPlayer.frame = rFrame;
-    
-            while (videoPlayer.frame != rFrame) yield return null;
+
+// --- THE FIX: SAFETY TIMEOUT ---
+            float seekTimeout = 0.15f; // 150ms max wait
+            while (videoPlayer.frame != rFrame && seekTimeout > 0) 
+            {
+                seekTimeout -= Time.deltaTime;
+                yield return null; // If it takes too long, we just move on
+            }
     
             // 3. Visuals (Mirroring/Jitter)
             if (videoDisplayRect != null)
@@ -190,39 +201,43 @@ public class DoorController : MonoBehaviour
                 videoDisplayRect.anchoredPosition = new Vector2(Random.Range(-jitterAmount, jitterAmount), Random.Range(-jitterAmount, jitterAmount));
             }
     
-            // 4. Visuals (Color)
+            // 4. Visuals (Color) - The Golden AI Glitch
             if (videoRawImage != null)
             {
                 float roll = Random.value;
                 float h, s, v;
                 Color.RGBToHSV(originalColor, out h, out s, out v);
 
-                // We force 'v' (brightness) to always be at least 0.5f during a glitch
-                float safeBrightness = Mathf.Clamp(maxBrightness, 0.5f, 1.2f);
-                float safeSaturation = Mathf.Clamp(maxSaturation, 0.4f, 1.5f);
+                float safeBrightness = Mathf.Clamp(maxBrightness, 0.6f, 1.3f); // Keep it bright
+                float safeSaturation = Mathf.Clamp(maxSaturation, 0.5f, 1.5f); // Keep it vivid
 
-                if (roll < 0.25f) 
+                // Target Yellow Hue is ~0.15. We'll allow a "Warm Zone" between 0.05 (Red/Orange) and 0.18 (Yellow)
+                float goldenHue = Random.Range(0.13f, 0.18f);
+
+                if (roll < 0.3f) 
                 {
-                    // MODE A: Grayscale but bright (The "Ghost" look)
-                    videoRawImage.color = new Color(0.7f, 0.7f, 0.7f, 1f); 
+                    // MODE A: Sepia-Tone (The "Archive" look)
+                    // High saturation yellow/orange but with lower brightness
+                    videoRawImage.color = Color.HSVToRGB(0.12f, 0.8f, 0.7f);
                 }
-                else if (roll < 0.50f) 
+                else if (roll < 0.6f) 
                 {
-                    // MODE B: High Intensity Original (The "Overheated" look)
-                    // We ignore the original 'v' and use our safeBrightness
-                    videoRawImage.color = Color.HSVToRGB(h, safeSaturation, safeBrightness);
+                    // MODE B: The "Latent Shift"
+                    // Blend original hue 20% with Golden Hue 80%
+                    float finalH = Mathf.Lerp(h, goldenHue, 0.8f);
+                    videoRawImage.color = Color.HSVToRGB(finalH, safeSaturation, safeBrightness);
                 }
-                else if (roll < 0.75f)
+                else if (roll < 0.9f)
                 {
-                    // MODE C: Inverted / Complimentary (The "Negative" look)
-                    float invertedH = (h + 0.5f) % 1f; 
-                    videoRawImage.color = Color.HSVToRGB(invertedH, safeSaturation, safeBrightness);
+                    // MODE C: Overexposed Yellow
+                    // Force pure yellow-gold
+                    videoRawImage.color = Color.HSVToRGB(0.15f, 1.2f, 1.2f);
                 }
                 else 
                 {
-                    // MODE D: Total Randomness (The "Broken GPU" look)
-                    // Random hue, but guaranteed saturation and brightness
-                    videoRawImage.color = Color.HSVToRGB(Random.value, safeSaturation, safeBrightness);
+                    // MODE D: High-Key Contrast
+                    // Instead of inverting to blue, we invert and then shift BACK to yellow
+                    videoRawImage.color = Color.HSVToRGB(goldenHue, 0.4f, 1.5f);
                 }
             }
     
@@ -235,8 +250,15 @@ public class DoorController : MonoBehaviour
         }
     
         // --- RESET SEQUENCE ---
+        videoPlayer.Stop(); // Force the buffer to clear
         videoPlayer.frame = 0;
-        while (videoPlayer.frame != 0) yield return null;
+        videoPlayer.Prepare(); // Re-arm the player
+        float resetTimeout = 0.2f;
+        while (videoPlayer.frame != 0 && resetTimeout > 0) 
+        {
+            resetTimeout -= Time.deltaTime;
+            yield return null;
+        }
         videoPlayer.Pause();
         
         if (videoDisplayRect != null) {

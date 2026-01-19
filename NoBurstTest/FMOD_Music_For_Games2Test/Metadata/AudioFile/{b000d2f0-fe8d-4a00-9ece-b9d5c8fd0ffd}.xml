@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{b000d2f0-fe8d-4a00-9ece-b9d5c8fd0ffd}">
 		<property name="assetPath">
-			<value>Start_SFX_master.wav</value>
+			<value>HannesGottschall/Start_SFX_master.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

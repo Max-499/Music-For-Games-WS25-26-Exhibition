@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{acb9408a-cd78-4f55-9c3f-f3d1bcc711e5}">
 		<property name="assetPath">
-			<value>top-r_master.wav</value>
+			<value>HannesGottschall/top-r_master.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

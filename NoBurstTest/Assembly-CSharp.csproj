@@ -46,6 +46,7 @@
     <Analyzer Include="/home/hannes/Unity/Hub/Editor/6000.0.59f2/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/script.cs" />
     <Compile Include="Assets/DoorController.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/GameController/CameraStickControl.cs" />

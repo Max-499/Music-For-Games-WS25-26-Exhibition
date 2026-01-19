@@ -71,26 +71,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-8323074007652036786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master_HG.strings.bank
-  m_EditorClassIdentifier: 
-  Path: FMOD_Music_For_Games2Test/Build/Desktop/Master_HG.strings.bank
-  Name: Master_HG.strings
-  StudioPath: bank:/Master_HG.strings
-  lastModified: 639043420409350851
-  FileSizes:
-  - Name: Desktop
-    Value: 1168
-  Exists: 1
 --- !u!114 &-7197135466105481829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,10 +86,30 @@ MonoBehaviour:
   Path: FMOD_Music_For_Games2Test/Build/Desktop/Master_HG.bank
   Name: Master_HG
   StudioPath: bank:/Master_HG
-  lastModified: 639043420409318851
+  lastModified: 639044196832181575
   FileSizes:
   - Name: Desktop
     Value: 4755360
+  Exists: 1
+--- !u!114 &-6314679291022766500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD_Music_For_Games2Test/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639044180650404317
+  FileSizes:
+  - Name: Desktop
+    Value: 1178
   Exists: 1
 --- !u!114 &-4553366327032975221
 MonoBehaviour:
@@ -231,6 +231,7 @@ MonoBehaviour:
     Data3: 490050714
     Data4: 996213220
   Banks:
+  - {fileID: 2253683909755979106}
   - {fileID: -7197135466105481829}
   IsStream: 1
   Is3D: 0
@@ -308,7 +309,7 @@ MonoBehaviour:
   Path: FMOD_Music_For_Games2Test/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639042989511998646
+  lastModified: 639044196832181575
   FileSizes:
   - Name: Desktop
     Value: 506
@@ -346,19 +347,22 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -8323074007652036786}
   - {fileID: -7197135466105481829}
   - {fileID: -386788390541268364}
+  - {fileID: -6314679291022766500}
+  - {fileID: 2253683909755979106}
+  - {fileID: 6918077975282261486}
   EditorEvents:
   - {fileID: 4405540192323364846}
   - {fileID: -2581818292222837631}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7197135466105481829}
+  - {fileID: 6918077975282261486}
   StringsBanks:
-  - {fileID: -8323074007652036786}
+  - {fileID: -6314679291022766500}
   cacheVersion: 131856
-  cacheTime: 639043420409350851
+  cacheTime: 639044196832181575
   SerializableEventsDict:
   - key: event:/StartSFX
     index: 0
@@ -412,6 +416,26 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &2253683909755979106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/HannesGottschall.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD_Music_For_Games2Test/Build/Desktop/HannesGottschall.bank
+  Name: HannesGottschall
+  StudioPath: bank:/HannesGottschall
+  lastModified: 639044180683628465
+  FileSizes:
+  - Name: Desktop
+    Value: 4754816
+  Exists: 1
 --- !u!114 &3382672434795479747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -451,6 +475,7 @@ MonoBehaviour:
     Data3: -460923974
     Data4: -936973357
   Banks:
+  - {fileID: 2253683909755979106}
   - {fileID: -7197135466105481829}
   IsStream: 0
   Is3D: 0
@@ -459,3 +484,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &6918077975282261486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD_Music_For_Games2Test/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639044180650364324
+  FileSizes:
+  - Name: Desktop
+    Value: 1074
+  Exists: 1

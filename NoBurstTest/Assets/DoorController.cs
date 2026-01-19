@@ -129,7 +129,7 @@ public class DoorController : MonoBehaviour
         lastButtonIndex = currentButtonIndex;
 
         if (promptText != null) 
-            promptText.text = "Identify and hold Action Button to grow the bubble.\nWould be a shame if it were to burst! ;)";
+            promptText.text = "Identify and hold Action Button to grow the bubble.\nWould be a shame if it were to burst!";
         
         hasPlayedStartSFX = false;
         currentRumbleValue = 0f; // Reset fade tracker

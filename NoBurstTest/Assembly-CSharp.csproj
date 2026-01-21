@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/script.cs" />
-    <Compile Include="Assets/DoorController.cs" />
+    <Compile Include="Assets/Collaborators/HannesGottschall/Scripts/DoorController.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/GameController/CameraStickControl.cs" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
